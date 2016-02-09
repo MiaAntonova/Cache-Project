@@ -1,0 +1,1610 @@
+B110	syscall.c	168
+B1200	syscall.c	174
+B134	syscall.c	169
+B150	syscall.c	170
+B1800	syscall.c	175
+B19200	syscall.c	179
+B200	syscall.c	171
+B2400	syscall.c	176
+B300	syscall.c	172
+B3600	syscall.c	196
+B38400	syscall.c	180
+B4800	syscall.c	177
+B50	syscall.c	166
+B600	syscall.c	173
+B7200	syscall.c	197
+B75	syscall.c	167
+B900	syscall.c	195
+B9600	syscall.c	178
+BIMOD_HASH	bpred.c	/^#define BIMOD_HASH(PRED, ADDR)						\\$/
+BLOB_TAIL_SIZE	eio.c	488
+BOUND_POS	cache.c	/^#define BOUND_POS(N)		((int)(MIN(MAX(0, (N)), 2147/
+BS0	syscall.c	138
+BS0	syscall.c	189
+BS1	syscall.c	139
+BS1	syscall.c	190
+BYTES_PER_LINE	dlite.c	1464
+CACHE_BADDR	cache.c	/^#define CACHE_BADDR(cp, addr)	((addr) & ~(cp)->blk/
+CACHE_BCOPY	cache.c	/^#define CACHE_BCOPY(cmd, blk, bofs, p, nbytes)	\\$/
+CACHE_BINDEX	cache.c	/^#define CACHE_BINDEX(cp, blks, i)					\\$/
+CACHE_BLK	cache.c	/^#define CACHE_BLK(cp, addr)	((addr) & (cp)->blk_ma/
+CACHE_BYTE	cache.c	/^#define CACHE_BYTE(data, bofs)	  __CACHE_ACCESS(un/
+CACHE_DOUBLE	cache.c	/^#define CACHE_DOUBLE(data, bofs)  __CACHE_ACCESS(d/
+CACHE_FLOAT	cache.c	/^#define CACHE_FLOAT(data, bofs)	  __CACHE_ACCESS(f/
+CACHE_HALF	cache.c	/^#define CACHE_HALF(data, bofs)	  __CACHE_ACCESS(un/
+CACHE_HASH	cache.c	/^#define CACHE_HASH(cp, key)						\\$/
+CACHE_MK_BADDR	cache.c	/^#define CACHE_MK_BADDR(cp, tag, set)					\\$/
+CACHE_SET	cache.c	/^#define CACHE_SET(cp, addr)	(((addr) >> (cp)->set_/
+CACHE_TAG	cache.c	/^#define CACHE_TAG(cp, addr)	((addr) >> (cp)->tag_s/
+CACHE_TAGSET	cache.c	/^#define CACHE_TAGSET(cp, addr)	((addr) & (cp)->tag/
+CACHE_WORD	cache.c	/^#define CACHE_WORD(data, bofs)	  __CACHE_ACCESS(un/
+CAT	sysprobe.c	/^#define CAT(a,b)	a\/**\/b$/
+CONNECT	machine.c	/^#define CONNECT(OP)$/
+CONNECT	machine.c	/^#define CONNECT(OP)$/
+CONNECT	machine.c	/^#define CONNECT(OP)$/
+CONNECT	machine.c	/^#define CONNECT(OP)$/
+CONNECT	sim-bpred.c	/^#define CONNECT(OP)$/
+CONNECT	sim-cache.c	/^#define CONNECT(OP)$/
+CONNECT	sim-eio.c	/^#define CONNECT(OP)$/
+CONNECT	sim-eio.c	/^#define CONNECT(OP)$/
+CONNECT	sim-fast.c	/^#define CONNECT(OP)$/
+CONNECT	sim-fast.c	/^#define CONNECT(OP)$/
+CONNECT	sim-fast.c	/^#define CONNECT(OP)$/
+CONNECT	sim-outorder.c	/^#define CONNECT(OP)	\/* nada... *\/$/
+CONNECT	sim-outorder.c	/^#define CONNECT(OP)$/
+CONNECT	sim-profile.c	/^#define CONNECT(OP)$/
+CONNECT	sim-safe.c	/^#define CONNECT(OP)$/
+CPC	sim-bpred.c	371
+CPC	sim-cache.c	607
+CPC	sim-eio.c	325
+CPC	sim-fast.c	231
+CPC	sim-outorder.c	3404
+CPC	sim-profile.c	567
+CPC	sim-safe.c	194
+CR0	syscall.c	130
+CR0	syscall.c	150
+CR0	syscall.c	183
+CR1	syscall.c	131
+CR1	syscall.c	184
+CR2	syscall.c	132
+CR2	syscall.c	185
+CR3	syscall.c	133
+CR3	syscall.c	186
+CREATE_VECTOR	sim-outorder.c	/^#define CREATE_VECTOR(N)        (BITMAP_SET_P(use_/
+CREATE_VECTOR_RT	sim-outorder.c	/^#define CREATE_VECTOR_RT(N)     (BITMAP_SET_P(use_/
+CVLINK_INIT	sim-outorder.c	/^#define CVLINK_INIT(CV, RS,ONUM)	((CV).rs = (RS), /
+CVLINK_NULL	sim-outorder.c	2044
+CV_BMAP_SZ	sim-outorder.c	2050
+CV_link	sim-outorder.c	2038
+C_BMAP_SZ	sim-outorder.c	2864
+DECLARE_FAULT	sim-bpred.c	/^#define DECLARE_FAULT(FAULT)						\\$/
+DECLARE_FAULT	sim-cache.c	/^#define DECLARE_FAULT(FAULT)						\\$/
+DECLARE_FAULT	sim-eio.c	455
+DECLARE_FAULT	sim-eio.c	/^#define DECLARE_FAULT(FAULT)						\\$/
+DECLARE_FAULT	sim-eio.c	/^#define DECLARE_FAULT(FAULT)						\\$/
+DECLARE_FAULT	sim-fast.c	/^#define DECLARE_FAULT(FAULT)						\\$/
+DECLARE_FAULT	sim-fast.c	/^#define DECLARE_FAULT(FAULT)						\\$/
+DECLARE_FAULT	sim-outorder.c	/^#define DECLARE_FAULT(FAULT)						\\$/
+DECLARE_FAULT	sim-outorder.c	4492
+DECLARE_FAULT	sim-outorder.c	/^#define DECLARE_FAULT(FAULT)						\\$/
+DECLARE_FAULT	sim-profile.c	/^#define DECLARE_FAULT(FAULT)						\\$/
+DECLARE_FAULT	sim-safe.c	/^#define DECLARE_FAULT(FAULT)						\\$/
+DEFINST	machine.c	/^#define DEFINST(OP,MSK,NAME,OPFORM,RES,FLAGS,O1,O2/
+DEFINST	machine.c	/^#define DEFINST(OP,MSK,NAME,OPFORM,RES,FLAGS,O1,O2/
+DEFINST	machine.c	/^#define DEFINST(OP,MSK,NAME,OPFORM,RES,FLAGS,O1,O2/
+DEFINST	machine.c	/^#define DEFINST(OP,MSK,NAME,OPFORM,RES,FLAGS,O1,O2/
+DEFINST	machine.c	/^#define DEFINST(OP,MSK,NAME,OPFORM,RES,FLAGS,O1,O2/
+DEFINST	sim-bpred.c	/^#define DEFINST(OP,MSK,NAME,OPFORM,RES,FLAGS,O1,O2/
+DEFINST	sim-cache.c	/^#define DEFINST(OP,MSK,NAME,OPFORM,RES,FLAGS,O1,O2/
+DEFINST	sim-eio.c	/^#define DEFINST(OP,MSK,NAME,OPFORM,RES,FLAGS,O1,O2/
+DEFINST	sim-eio.c	/^#define DEFINST(OP,MSK,NAME,OPFORM,RES,FLAGS,O1,O2/
+DEFINST	sim-fast.c	/^#define DEFINST(OP,MSK,NAME,OPFORM,RES,FLAGS,O1,O2/
+DEFINST	sim-fast.c	/^#define DEFINST(OP,MSK,NAME,OPFORM,RES,FLAGS,O1,O2/
+DEFINST	sim-fast.c	/^#define DEFINST(OP,MSK,NAME,OPFORM,RES,FLAGS,O1,O2/
+DEFINST	sim-outorder.c	/^#define DEFINST(OP,MSK,NAME,OPFORM,RES,CLASS,O1,O2/
+DEFINST	sim-outorder.c	/^#define DEFINST(OP,MSK,NAME,OPFORM,RES,FLAGS,O1,O2/
+DEFINST	sim-profile.c	/^#define DEFINST(OP,MSK,NAME,OPFORM,RES,FLAGS,O1,O2/
+DEFINST	sim-safe.c	/^#define DEFINST(OP,MSK,NAME,OPFORM,RES,FLAGS,O1,O2/
+DEFLINK	machine.c	/^#define DEFLINK(OP,MSK,NAME,MASK,SHIFT) NAME,$/
+DEFLINK	machine.c	/^#define DEFLINK(OP,MSK,NAME,MASK,SHIFT) NULL,$/
+DEFLINK	machine.c	/^#define DEFLINK(OP,MSK,NAME,MASK,SHIFT) FUClass_NA/
+DEFLINK	machine.c	/^#define DEFLINK(OP,MSK,NAME,MASK,SHIFT) NA,$/
+DEFLINK	sim-bpred.c	/^#define DEFLINK(OP,MSK,NAME,MASK,SHIFT)					\\$/
+DEFLINK	sim-cache.c	/^#define DEFLINK(OP,MSK,NAME,MASK,SHIFT)					\\$/
+DEFLINK	sim-eio.c	/^#define DEFLINK(OP,MSK,NAME,MASK,SHIFT)					\\$/
+DEFLINK	sim-eio.c	/^#define DEFLINK(OP,MSK,NAME,MASK,SHIFT)					\\$/
+DEFLINK	sim-fast.c	/^#define DEFLINK(OP,MSK,NAME,MASK,SHIFT)					\\$/
+DEFLINK	sim-fast.c	/^#define DEFLINK(OP,MSK,NAME,MASK,SHIFT)					\\$/
+DEFLINK	sim-fast.c	/^#define DEFLINK(OP,MSK,NAME,MASK,SHIFT)					\\$/
+DEFLINK	sim-outorder.c	/^#define DEFLINK(OP,MSK,NAME,MASK,SHIFT)					\\$/
+DEFLINK	sim-outorder.c	/^#define DEFLINK(OP,MSK,NAME,MASK,SHIFT)					\\$/
+DEFLINK	sim-profile.c	/^#define DEFLINK(OP,MSK,NAME,MASK,SHIFT)					\\$/
+DEFLINK	sim-safe.c	/^#define DEFLINK(OP,MSK,NAME,MASK,SHIFT)					\\$/
+DFCC	sim-outorder.c	3371
+DFPCR	sim-outorder.c	3383
+DFPR	sim-outorder.c	/^#define DFPR(N)			(((N) == 31) ? DNA : ((N)+32))$/
+DFPR_D	sim-outorder.c	/^#define DFPR_D(N)		(((N)+32)&~1)$/
+DFPR_F	sim-outorder.c	/^#define DFPR_F(N)		(((N)+32)&~1)$/
+DFPR_L	sim-outorder.c	/^#define DFPR_L(N)		(((N)+32)&~1)$/
+DGPR	sim-outorder.c	/^#define DGPR(N)			(N)$/
+DGPR	sim-outorder.c	/^#define DGPR(N)			(31 - (N)) \/* was: (((N) == 31) /
+DGPR_D	sim-outorder.c	/^#define DGPR_D(N)		((N) &~1)$/
+DHI	sim-outorder.c	3369
+DLITE_PROMPT	dlite.c	2222
+DLO	sim-outorder.c	3370
+DNA	sim-outorder.c	3355
+DOTSEEN	misc.c	444
+DTMP	sim-outorder.c	3372
+DTMP	sim-outorder.c	3385
+DUNIQ	sim-outorder.c	3384
+ECHO	syscall.c	142
+ECHO	syscall.c	165
+EIO_FILE_HEADER	eio.c	76
+EXECUTE_ACTION	eventq.c	/^#define EXECUTE_ACTION(ev, now)						\\$/
+EXTA	syscall.c	193
+EXTB	syscall.c	194
+FCC	sim-bpred.c	392
+FCC	sim-cache.c	628
+FCC	sim-eio.c	346
+FCC	sim-fast.c	252
+FCC	sim-outorder.c	3468
+FCC	sim-outorder.c	3518
+FCC	sim-profile.c	588
+FCC	sim-safe.c	215
+FF0	syscall.c	140
+FF0	syscall.c	191
+FF1	syscall.c	141
+FF1	syscall.c	192
+FLUSHO	syscall.c	145
+FPCR	sim-bpred.c	404
+FPCR	sim-cache.c	640
+FPCR	sim-eio.c	358
+FPCR	sim-fast.c	264
+FPCR	sim-outorder.c	3502
+FPCR	sim-profile.c	600
+FPCR	sim-safe.c	227
+FPR	sim-bpred.c	/^#define FPR(N)			(regs.regs_F.d[N])$/
+FPR	sim-cache.c	/^#define FPR(N)			(regs.regs_F.d[N])$/
+FPR	sim-eio.c	/^#define FPR(N)			(regs.regs_F.d[N])$/
+FPR	sim-fast.c	/^#define FPR(N)			(regs.regs_F.d[N])$/
+FPR	sim-outorder.c	/^#define FPR(N)			(BITMAP_SET_P(use_spec_F, F_BMAP_/
+FPR	sim-profile.c	/^#define FPR(N)			(regs.regs_F.d[N])$/
+FPR	sim-safe.c	/^#define FPR(N)			(regs.regs_F.d[(N)])$/
+FPR_D	sim-bpred.c	/^#define FPR_D(N)		(regs.regs_F.d[(N) >> 1])$/
+FPR_D	sim-cache.c	/^#define FPR_D(N)		(regs.regs_F.d[(N) >> 1])$/
+FPR_D	sim-eio.c	/^#define FPR_D(N)		(regs.regs_F.d[(N) >> 1])$/
+FPR_D	sim-fast.c	/^#define FPR_D(N)		(regs.regs_F.d[(N) >> 1])$/
+FPR_D	sim-outorder.c	/^#define FPR_D(N)                (BITMAP_SET_P(use_/
+FPR_D	sim-profile.c	/^#define FPR_D(N)		(regs.regs_F.d[(N) >> 1])$/
+FPR_D	sim-safe.c	/^#define FPR_D(N)		(regs.regs_F.d[(N) >> 1])$/
+FPR_F	sim-bpred.c	/^#define FPR_F(N)		(regs.regs_F.f[(N)])$/
+FPR_F	sim-cache.c	/^#define FPR_F(N)		(regs.regs_F.f[(N)])$/
+FPR_F	sim-eio.c	/^#define FPR_F(N)		(regs.regs_F.f[(N)])$/
+FPR_F	sim-fast.c	/^#define FPR_F(N)		(regs.regs_F.f[(N)])$/
+FPR_F	sim-outorder.c	/^#define FPR_F(N)                (BITMAP_SET_P(use_/
+FPR_F	sim-profile.c	/^#define FPR_F(N)		(regs.regs_F.f[(N)])$/
+FPR_F	sim-safe.c	/^#define FPR_F(N)		(regs.regs_F.f[(N)])$/
+FPR_L	sim-bpred.c	/^#define FPR_L(N)		(regs.regs_F.l[(N)])$/
+FPR_L	sim-cache.c	/^#define FPR_L(N)		(regs.regs_F.l[(N)])$/
+FPR_L	sim-eio.c	/^#define FPR_L(N)		(regs.regs_F.l[(N)])$/
+FPR_L	sim-fast.c	/^#define FPR_L(N)		(regs.regs_F.l[(N)])$/
+FPR_L	sim-outorder.c	/^#define FPR_L(N)                (BITMAP_SET_P(use_/
+FPR_L	sim-profile.c	/^#define FPR_L(N)		(regs.regs_F.l[(N)])$/
+FPR_L	sim-safe.c	/^#define FPR_L(N)		(regs.regs_F.l[(N)])$/
+FPR_Q	sim-bpred.c	/^#define FPR_Q(N)		(regs.regs_F.q[N])$/
+FPR_Q	sim-cache.c	/^#define FPR_Q(N)		(regs.regs_F.q[N])$/
+FPR_Q	sim-eio.c	/^#define FPR_Q(N)		(regs.regs_F.q[N])$/
+FPR_Q	sim-fast.c	/^#define FPR_Q(N)		(regs.regs_F.q[N])$/
+FPR_Q	sim-outorder.c	/^#define FPR_Q(N)		(BITMAP_SET_P(use_spec_F, F_BMAP/
+FPR_Q	sim-profile.c	/^#define FPR_Q(N)		(regs.regs_F.q[N])$/
+FPR_Q	sim-safe.c	/^#define FPR_Q(N)		(regs.regs_F.q[N])$/
+FU_FPALU_INDEX	sim-outorder.c	249
+FU_FPMULT_INDEX	sim-outorder.c	250
+FU_IALU_INDEX	sim-outorder.c	246
+FU_IMULT_INDEX	sim-outorder.c	247
+FU_MEMPORT_INDEX	sim-outorder.c	248
+F_BMAP_SZ	sim-outorder.c	2859
+GPR	sim-bpred.c	/^#define GPR(N)			(regs.regs_R[N])$/
+GPR	sim-cache.c	/^#define GPR(N)			(regs.regs_R[N])$/
+GPR	sim-eio.c	/^#define GPR(N)			(regs.regs_R[N])$/
+GPR	sim-fast.c	/^#define GPR(N)			(regs.regs_R[N])$/
+GPR	sim-outorder.c	/^#define GPR(N)                  (BITMAP_SET_P(use_/
+GPR	sim-profile.c	/^#define GPR(N)			(regs.regs_R[N])$/
+GPR	sim-safe.c	/^#define GPR(N)			(regs.regs_R[N])$/
+HASH_ADDR	sim-outorder.c	/^#define HASH_ADDR(ADDR)							\\$/
+HI	sim-bpred.c	389
+HI	sim-cache.c	625
+HI	sim-eio.c	343
+HI	sim-fast.c	249
+HI	sim-outorder.c	3452
+HI	sim-profile.c	585
+HI	sim-safe.c	212
+HIBITL	misc.c	391
+HIBITL	misc.c	395
+HOST_ONLY	sysprobe.c	75
+HUPCL	syscall.c	164
+Head	cache.c	189
+IACOMPRESS	sim-cache.c	/^#define IACOMPRESS(A)							\\$/
+IACOMPRESS	sim-cache.c	/^#define IACOMPRESS(A)		(A)$/
+IACOMPRESS	sim-outorder.c	/^#define IACOMPRESS(A)							\\$/
+IACOMPRESS	sim-outorder.c	/^#define IACOMPRESS(A)		(A)$/
+IFQ_count	sim-outorder.c	334
+IFQ_fcount	sim-outorder.c	335
+INC_INSN_CTR	sim-fast.c	/^#define INC_INSN_CTR()	sim_num_insn++$/
+INC_INSN_CTR	sim-fast.c	/^#define INC_INSN_CTR()	\/* nada *\/$/
+INSTS_PER_SCREEN	dlite.c	1593
+INST_SEQ_TYPE	sim-outorder.c	1468
+INST_TAG_TYPE	sim-outorder.c	1463
+IR	sim-outorder.c	1492
+IR	sim-outorder.c	2942
+ISCOMPRESS	sim-cache.c	/^#define ISCOMPRESS(SZ)							\\$/
+ISCOMPRESS	sim-cache.c	/^#define ISCOMPRESS(SZ)		(SZ)$/
+ISCOMPRESS	sim-outorder.c	/^#define ISCOMPRESS(SZ)							\\$/
+ISCOMPRESS	sim-outorder.c	/^#define ISCOMPRESS(SZ)		(SZ)$/
+LENGTH	misc.c	445
+LINES_PER_SCREEN	dlite.c	1465
+LL_MAX	misc.c	783
+LL_MIN	misc.c	784
+LO	sim-bpred.c	391
+LO	sim-cache.c	627
+LO	sim-eio.c	345
+LO	sim-fast.c	251
+LO	sim-outorder.c	3460
+LO	sim-profile.c	587
+LO	sim-safe.c	214
+LSQ	sim-outorder.c	1640
+LSQ_count	sim-outorder.c	338
+LSQ_fcount	sim-outorder.c	339
+LSQ_head	sim-outorder.c	1641
+LSQ_num	sim-outorder.c	1642
+LSQ_size	sim-outorder.c	158
+LSQ_tail	sim-outorder.c	1641
+LZERO	misc.c	443
+MAXBUFSIZE	syscall.c	461
+MAXDIGS	misc.c	449
+MAX_ARGS	dlite.c	293
+MAX_FILENAME_LEN	options.c	1197
+MAX_IDEPS	sim-outorder.c	1472
+MAX_LINE_ARGS	options.c	1196
+MAX_ODEPS	sim-outorder.c	1475
+MAX_PCSTAT_VARS	sim-cache.c	108
+MAX_PCSTAT_VARS	sim-outorder.c	223
+MAX_PCSTAT_VARS	sim-profile.c	99
+MAX_RS_LINKS	sim-outorder.c	1403
+MAX_STD_UNKNOWNS	sim-outorder.c	2528
+MAX_STR	dlite.c	296
+MAX_VARS	options.c	1711
+MD_NOP_INST	machine.c	62
+MEM_BLOCK_SIZE	memory.c	496
+MEM_TABLE_SIZE	memory.c	488
+MOD_BINARY	dlite.c	106
+MOD_BYTE	dlite.c	88
+MOD_CHAR	dlite.c	94
+MOD_DECIMAL	dlite.c	102
+MOD_DOUBLE	dlite.c	93
+MOD_FLOAT	dlite.c	92
+MOD_FORMATS	dlite.c	108
+MOD_HALF	dlite.c	89
+MOD_HEX	dlite.c	105
+MOD_OCTAL	dlite.c	104
+MOD_QWORD	dlite.c	91
+MOD_SIZES	dlite.c	97
+MOD_STRING	dlite.c	95
+MOD_UNSIGNED	dlite.c	103
+MOD_WORD	dlite.c	90
+MSB	sysprobe.c	80
+Meval	eval.c	/^main(void)$/
+Mmain	main.c	/^main(int argc, char **argv, char **envp)$/
+Moptions	options.c	/^main(int argc, char **argv)$/
+Mstats	stats.c	/^main(void)$/
+Msysprobe	sysprobe.c	/^main(int argc, char **argv)$/
+NICE_DEFAULT_VALUE	main.c	152
+NL0	syscall.c	128
+NL0	syscall.c	181
+NL1	syscall.c	129
+NL1	syscall.c	182
+NOFLSH	syscall.c	143
+NO_INSN_COUNT	sim-fast.c	70
+NUM_FLAGS	options.c	606
+NUM_IOCTL_BYTES	syscall.c	467
+OPERANDS_READY	sim-outorder.c	/^#define OPERANDS_READY(RS)                        /
+PAD	misc.c	/^#define PAD(s, n)							\\$/
+PADZERO	misc.c	441
+PC	sim-outorder.c	1494
+PENDIN	syscall.c	146
+POLYNOMIAL	misc.c	1144
+PUT	misc.c	/^#define PUT(p, n)							\\$/
+READ_BYTE	sim-bpred.c	/^#define READ_BYTE(SRC, FAULT)						\\$/
+READ_BYTE	sim-cache.c	/^#define READ_BYTE(SRC, FAULT)						\\$/
+READ_BYTE	sim-eio.c	/^#define READ_BYTE(SRC, FAULT)						\\$/
+READ_BYTE	sim-fast.c	/^#define READ_BYTE(SRC, FAULT)						\\$/
+READ_BYTE	sim-outorder.c	/^#define READ_BYTE(SRC, FAULT)						\\$/
+READ_BYTE	sim-profile.c	/^#define READ_BYTE(SRC, FAULT)						\\$/
+READ_BYTE	sim-safe.c	/^#define READ_BYTE(SRC, FAULT)						\\$/
+READ_HALF	sim-bpred.c	/^#define READ_HALF(SRC, FAULT)						\\$/
+READ_HALF	sim-cache.c	/^#define READ_HALF(SRC, FAULT)						\\$/
+READ_HALF	sim-eio.c	/^#define READ_HALF(SRC, FAULT)						\\$/
+READ_HALF	sim-fast.c	/^#define READ_HALF(SRC, FAULT)						\\$/
+READ_HALF	sim-outorder.c	/^#define READ_HALF(SRC, FAULT)						\\$/
+READ_HALF	sim-profile.c	/^#define READ_HALF(SRC, FAULT)						\\$/
+READ_HALF	sim-safe.c	/^#define READ_HALF(SRC, FAULT)						\\$/
+READ_QWORD	sim-bpred.c	/^#define READ_QWORD(SRC, FAULT)						\\$/
+READ_QWORD	sim-cache.c	/^#define READ_QWORD(SRC, FAULT)						\\$/
+READ_QWORD	sim-eio.c	/^#define READ_QWORD(SRC, FAULT)						\\$/
+READ_QWORD	sim-fast.c	/^#define READ_QWORD(SRC, FAULT)						\\$/
+READ_QWORD	sim-outorder.c	/^#define READ_QWORD(SRC, FAULT)						\\$/
+READ_QWORD	sim-profile.c	/^#define READ_QWORD(SRC, FAULT)						\\$/
+READ_QWORD	sim-safe.c	/^#define READ_QWORD(SRC, FAULT)						\\$/
+READ_WORD	sim-bpred.c	/^#define READ_WORD(SRC, FAULT)						\\$/
+READ_WORD	sim-cache.c	/^#define READ_WORD(SRC, FAULT)						\\$/
+READ_WORD	sim-eio.c	/^#define READ_WORD(SRC, FAULT)						\\$/
+READ_WORD	sim-fast.c	/^#define READ_WORD(SRC, FAULT)						\\$/
+READ_WORD	sim-outorder.c	/^#define READ_WORD(SRC, FAULT)						\\$/
+READ_WORD	sim-profile.c	/^#define READ_WORD(SRC, FAULT)						\\$/
+READ_WORD	sim-safe.c	/^#define READ_WORD(SRC, FAULT)						\\$/
+RELEVANT_SCOPE	symbol.c	/^#define RELEVANT_SCOPE(SYM)						\\$/
+RSLINK_FREE	sim-outorder.c	/^#define RSLINK_FREE(LINK)						\\$/
+RSLINK_FREE_LIST	sim-outorder.c	/^#define RSLINK_FREE_LIST(LINK)						\\$/
+RSLINK_INIT	sim-outorder.c	/^#define RSLINK_INIT(RSL, RS)						\\$/
+RSLINK_IS_NULL	sim-outorder.c	/^#define RSLINK_IS_NULL(LINK)            ((LINK)->r/
+RSLINK_NEW	sim-outorder.c	/^#define RSLINK_NEW(DST, RS)						\\$/
+RSLINK_NULL	sim-outorder.c	1723
+RSLINK_NULL_DATA	sim-outorder.c	1722
+RSLINK_RS	sim-outorder.c	/^#define RSLINK_RS(LINK)                 ((LINK)->r/
+RSLINK_VALID	sim-outorder.c	/^#define RSLINK_VALID(LINK)              ((LINK)->t/
+RS_link	sim-outorder.c	1707
+RUU	sim-outorder.c	1533
+RUU_count	sim-outorder.c	336
+RUU_fcount	sim-outorder.c	337
+RUU_head	sim-outorder.c	1534
+RUU_num	sim-outorder.c	1535
+RUU_size	sim-outorder.c	155
+RUU_station	sim-outorder.c	1490
+RUU_tail	sim-outorder.c	1534
+RZERO	misc.c	442
+R_BMAP_SZ	sim-outorder.c	2854
+SET_CPC	sim-outorder.c	/^#define SET_CPC(EXPR)           (regs.regs_PC = (E/
+SET_CREATE_VECTOR	sim-outorder.c	/^#define SET_CREATE_VECTOR(N, L) (spec_mode        /
+SET_FCC	sim-bpred.c	/^#define SET_FCC(EXPR)		(regs.regs_C.fcc = (EXPR))$/
+SET_FCC	sim-cache.c	/^#define SET_FCC(EXPR)		(regs.regs_C.fcc = (EXPR))$/
+SET_FCC	sim-eio.c	/^#define SET_FCC(EXPR)		(regs.regs_C.fcc = (EXPR))$/
+SET_FCC	sim-fast.c	/^#define SET_FCC(EXPR)		(regs.regs_C.fcc = (EXPR))$/
+SET_FCC	sim-outorder.c	/^#define SET_FCC(EXPR)		(spec_mode				\\$/
+SET_FCC	sim-outorder.c	/^#define SET_FCC(EXPR)		(spec_mode				\\$/
+SET_FCC	sim-profile.c	/^#define SET_FCC(EXPR)		(regs.regs_C.fcc = (EXPR))$/
+SET_FCC	sim-safe.c	/^#define SET_FCC(EXPR)		(regs.regs_C.fcc = (EXPR))$/
+SET_FPCR	sim-bpred.c	/^#define SET_FPCR(EXPR)		(regs.regs_C.fpcr = (EXPR)/
+SET_FPCR	sim-cache.c	/^#define SET_FPCR(EXPR)		(regs.regs_C.fpcr = (EXPR)/
+SET_FPCR	sim-eio.c	/^#define SET_FPCR(EXPR)		(regs.regs_C.fpcr = (EXPR)/
+SET_FPCR	sim-fast.c	/^#define SET_FPCR(EXPR)		(regs.regs_C.fpcr = (EXPR)/
+SET_FPCR	sim-outorder.c	/^#define SET_FPCR(EXPR)		(spec_mode				\\$/
+SET_FPCR	sim-profile.c	/^#define SET_FPCR(EXPR)		(regs.regs_C.fpcr = (EXPR)/
+SET_FPCR	sim-safe.c	/^#define SET_FPCR(EXPR)		(regs.regs_C.fpcr = (EXPR)/
+SET_FPR	sim-bpred.c	/^#define SET_FPR(N,EXPR)		(regs.regs_F.d[N] = (EXPR/
+SET_FPR	sim-cache.c	/^#define SET_FPR(N,EXPR)		(regs.regs_F.d[N] = (EXPR/
+SET_FPR	sim-eio.c	/^#define SET_FPR(N,EXPR)		(regs.regs_F.d[N] = (EXPR/
+SET_FPR	sim-fast.c	/^#define SET_FPR(N,EXPR)		(regs.regs_F.d[N] = (EXPR/
+SET_FPR	sim-outorder.c	/^#define SET_FPR(N,EXPR)		(spec_mode				\\$/
+SET_FPR	sim-profile.c	/^#define SET_FPR(N,EXPR)		(regs.regs_F.d[N] = (EXPR/
+SET_FPR	sim-safe.c	/^#define SET_FPR(N,EXPR)		(regs.regs_F.d[(N)] = (EX/
+SET_FPR_D	sim-bpred.c	/^#define SET_FPR_D(N,EXPR)	(regs.regs_F.d[(N) >> 1]/
+SET_FPR_D	sim-cache.c	/^#define SET_FPR_D(N,EXPR)	(regs.regs_F.d[(N) >> 1]/
+SET_FPR_D	sim-eio.c	/^#define SET_FPR_D(N,EXPR)	(regs.regs_F.d[(N) >> 1]/
+SET_FPR_D	sim-fast.c	/^#define SET_FPR_D(N,EXPR)	(regs.regs_F.d[(N) >> 1]/
+SET_FPR_D	sim-outorder.c	/^#define SET_FPR_D(N,EXPR)       (spec_mode				\\$/
+SET_FPR_D	sim-profile.c	/^#define SET_FPR_D(N,EXPR)	(regs.regs_F.d[(N) >> 1]/
+SET_FPR_D	sim-safe.c	/^#define SET_FPR_D(N,EXPR)	(regs.regs_F.d[(N) >> 1]/
+SET_FPR_F	sim-bpred.c	/^#define SET_FPR_F(N,EXPR)	(regs.regs_F.f[(N)] = (E/
+SET_FPR_F	sim-cache.c	/^#define SET_FPR_F(N,EXPR)	(regs.regs_F.f[(N)] = (E/
+SET_FPR_F	sim-eio.c	/^#define SET_FPR_F(N,EXPR)	(regs.regs_F.f[(N)] = (E/
+SET_FPR_F	sim-fast.c	/^#define SET_FPR_F(N,EXPR)	(regs.regs_F.f[(N)] = (E/
+SET_FPR_F	sim-outorder.c	/^#define SET_FPR_F(N,EXPR)       (spec_mode				\\$/
+SET_FPR_F	sim-profile.c	/^#define SET_FPR_F(N,EXPR)	(regs.regs_F.f[(N)] = (E/
+SET_FPR_F	sim-safe.c	/^#define SET_FPR_F(N,EXPR)	(regs.regs_F.f[(N)] = (E/
+SET_FPR_L	sim-bpred.c	/^#define SET_FPR_L(N,EXPR)	(regs.regs_F.l[(N)] = (E/
+SET_FPR_L	sim-cache.c	/^#define SET_FPR_L(N,EXPR)	(regs.regs_F.l[(N)] = (E/
+SET_FPR_L	sim-eio.c	/^#define SET_FPR_L(N,EXPR)	(regs.regs_F.l[(N)] = (E/
+SET_FPR_L	sim-fast.c	/^#define SET_FPR_L(N,EXPR)	(regs.regs_F.l[(N)] = (E/
+SET_FPR_L	sim-outorder.c	/^#define SET_FPR_L(N,EXPR)       (spec_mode				\\$/
+SET_FPR_L	sim-profile.c	/^#define SET_FPR_L(N,EXPR)	(regs.regs_F.l[(N)] = (E/
+SET_FPR_L	sim-safe.c	/^#define SET_FPR_L(N,EXPR)	(regs.regs_F.l[(N)] = (E/
+SET_FPR_Q	sim-bpred.c	/^#define SET_FPR_Q(N,EXPR)	(regs.regs_F.q[N] = (EXP/
+SET_FPR_Q	sim-cache.c	/^#define SET_FPR_Q(N,EXPR)	(regs.regs_F.q[N] = (EXP/
+SET_FPR_Q	sim-eio.c	/^#define SET_FPR_Q(N,EXPR)	(regs.regs_F.q[N] = (EXP/
+SET_FPR_Q	sim-fast.c	/^#define SET_FPR_Q(N,EXPR)	(regs.regs_F.q[N] = (EXP/
+SET_FPR_Q	sim-outorder.c	/^#define SET_FPR_Q(N,EXPR)	(spec_mode				\\$/
+SET_FPR_Q	sim-profile.c	/^#define SET_FPR_Q(N,EXPR)	(regs.regs_F.q[N] = (EXP/
+SET_FPR_Q	sim-safe.c	/^#define SET_FPR_Q(N,EXPR)	(regs.regs_F.q[N] = (EXP/
+SET_GPR	sim-bpred.c	/^#define SET_GPR(N,EXPR)		(regs.regs_R[N] = (EXPR))/
+SET_GPR	sim-cache.c	/^#define SET_GPR(N,EXPR)		(regs.regs_R[N] = (EXPR))/
+SET_GPR	sim-eio.c	/^#define SET_GPR(N,EXPR)		(regs.regs_R[N] = (EXPR))/
+SET_GPR	sim-fast.c	/^#define SET_GPR(N,EXPR)		(regs.regs_R[N] = (EXPR))/
+SET_GPR	sim-outorder.c	/^#define SET_GPR(N,EXPR)         (spec_mode				\\$/
+SET_GPR	sim-profile.c	/^#define SET_GPR(N,EXPR)		(regs.regs_R[N] = (EXPR))/
+SET_GPR	sim-safe.c	/^#define SET_GPR(N,EXPR)		(regs.regs_R[N] = (EXPR))/
+SET_HI	sim-bpred.c	/^#define SET_HI(EXPR)		(regs.regs_C.hi = (EXPR))$/
+SET_HI	sim-cache.c	/^#define SET_HI(EXPR)		(regs.regs_C.hi = (EXPR))$/
+SET_HI	sim-eio.c	/^#define SET_HI(EXPR)		(regs.regs_C.hi = (EXPR))$/
+SET_HI	sim-fast.c	/^#define SET_HI(EXPR)		(regs.regs_C.hi = (EXPR))$/
+SET_HI	sim-outorder.c	/^#define SET_HI(EXPR)		(spec_mode				\\$/
+SET_HI	sim-profile.c	/^#define SET_HI(EXPR)		(regs.regs_C.hi = (EXPR))$/
+SET_HI	sim-safe.c	/^#define SET_HI(EXPR)		(regs.regs_C.hi = (EXPR))$/
+SET_LO	sim-bpred.c	/^#define SET_LO(EXPR)		(regs.regs_C.lo = (EXPR))$/
+SET_LO	sim-cache.c	/^#define SET_LO(EXPR)		(regs.regs_C.lo = (EXPR))$/
+SET_LO	sim-eio.c	/^#define SET_LO(EXPR)		(regs.regs_C.lo = (EXPR))$/
+SET_LO	sim-fast.c	/^#define SET_LO(EXPR)		(regs.regs_C.lo = (EXPR))$/
+SET_LO	sim-outorder.c	/^#define SET_LO(EXPR)		(spec_mode				\\$/
+SET_LO	sim-profile.c	/^#define SET_LO(EXPR)		(regs.regs_C.lo = (EXPR))$/
+SET_LO	sim-safe.c	/^#define SET_LO(EXPR)		(regs.regs_C.lo = (EXPR))$/
+SET_NPC	sim-bpred.c	/^#define SET_NPC(EXPR)		(regs.regs_NPC = (EXPR))$/
+SET_NPC	sim-cache.c	/^#define SET_NPC(EXPR)		(regs.regs_NPC = (EXPR))$/
+SET_NPC	sim-eio.c	/^#define SET_NPC(EXPR)		(regs.regs_NPC = (EXPR))$/
+SET_NPC	sim-fast.c	/^#define SET_NPC(EXPR)		(regs.regs_NPC = (EXPR))$/
+SET_NPC	sim-outorder.c	/^#define SET_NPC(EXPR)           (regs.regs_NPC = (/
+SET_NPC	sim-profile.c	/^#define SET_NPC(EXPR)		(regs.regs_NPC = (EXPR))$/
+SET_NPC	sim-safe.c	/^#define SET_NPC(EXPR)		(regs.regs_NPC = (EXPR))$/
+SET_TPC	sim-bpred.c	367
+SET_TPC	sim-bpred.c	/^#define SET_TPC(EXPR)		(target_PC = (EXPR))$/
+SET_TPC	sim-outorder.c	3400
+SET_TPC	sim-outorder.c	/^#define SET_TPC(EXPR)		(target_PC = (EXPR))$/
+SET_UNIQ	sim-bpred.c	/^#define SET_UNIQ(EXPR)		(regs.regs_C.uniq = (EXPR)/
+SET_UNIQ	sim-cache.c	/^#define SET_UNIQ(EXPR)		(regs.regs_C.uniq = (EXPR)/
+SET_UNIQ	sim-eio.c	/^#define SET_UNIQ(EXPR)		(regs.regs_C.uniq = (EXPR)/
+SET_UNIQ	sim-fast.c	/^#define SET_UNIQ(EXPR)		(regs.regs_C.uniq = (EXPR)/
+SET_UNIQ	sim-outorder.c	/^#define SET_UNIQ(EXPR)		(spec_mode				\\$/
+SET_UNIQ	sim-profile.c	/^#define SET_UNIQ(EXPR)		(regs.regs_C.uniq = (EXPR)/
+SET_UNIQ	sim-safe.c	/^#define SET_UNIQ(EXPR)		(regs.regs_C.uniq = (EXPR)/
+SS_IOCTL_TCGETA	syscall.c	447
+SS_IOCTL_TCGETP	syscall.c	446
+SS_IOCTL_TCSETAW	syscall.c	451
+SS_IOCTL_TIOCGETC	syscall.c	452
+SS_IOCTL_TIOCGETP	syscall.c	444
+SS_IOCTL_TIOCGLTC	syscall.c	448
+SS_IOCTL_TIOCGWINSZ	syscall.c	450
+SS_IOCTL_TIOCLBIC	syscall.c	454
+SS_IOCTL_TIOCLBIS	syscall.c	455
+SS_IOCTL_TIOCLGET	syscall.c	456
+SS_IOCTL_TIOCLSET	syscall.c	457
+SS_IOCTL_TIOCSETC	syscall.c	453
+SS_IOCTL_TIOCSETP	syscall.c	445
+SS_IOCTL_TIOCSLTC	syscall.c	449
+SS_NFLAGS	syscall.c	594
+SS_O_APPEND	syscall.c	548
+SS_O_CREAT	syscall.c	549
+SS_O_EXCL	syscall.c	551
+SS_O_NOCTTY	syscall.c	553
+SS_O_NONBLOCK	syscall.c	552
+SS_O_RDONLY	syscall.c	545
+SS_O_RDWR	syscall.c	547
+SS_O_SYNC	syscall.c	554
+SS_O_TRUNC	syscall.c	550
+SS_O_WRONLY	syscall.c	546
+SS_SYS_accept	syscall.c	329
+SS_SYS_access	syscall.c	262
+SS_SYS_acct	syscall.c	280
+SS_SYS_adjtime	syscall.c	372
+SS_SYS_async_daemon	syscall.c	409
+SS_SYS_atomic_op	syscall.c	390
+SS_SYS_audcntl	syscall.c	436
+SS_SYS_audgen	syscall.c	437
+SS_SYS_bind	syscall.c	335
+SS_SYS_brk	syscall.c	246
+SS_SYS_cachectl	syscall.c	389
+SS_SYS_cacheflush	syscall.c	388
+SS_SYS_chdir	syscall.c	241
+SS_SYS_chmod	syscall.c	244
+SS_SYS_chown	syscall.c	245
+SS_SYS_chroot	syscall.c	290
+SS_SYS_close	syscall.c	235
+SS_SYS_connect	syscall.c	328
+SS_SYS_creat	syscall.c	237
+SS_SYS_debug	syscall.c	393
+SS_SYS_dup	syscall.c	270
+SS_SYS_dup2	syscall.c	320
+SS_SYS_execv	syscall.c	240
+SS_SYS_execve	syscall.c	288
+SS_SYS_exportfs	syscall.c	415
+SS_SYS_fchmod	syscall.c	355
+SS_SYS_fchown	syscall.c	354
+SS_SYS_fcntl	syscall.c	322
+SS_SYS_flock	syscall.c	362
+SS_SYS_fork	syscall.c	231
+SS_SYS_fstat	syscall.c	291
+SS_SYS_fstatfs	syscall.c	396
+SS_SYS_fsync	syscall.c	325
+SS_SYS_ftruncate	syscall.c	361
+SS_SYS_getdirentries	syscall.c	412
+SS_SYS_getdomainname	syscall.c	413
+SS_SYS_getdopt	syscall.c	321
+SS_SYS_getdtablesize	syscall.c	319
+SS_SYS_getfh	syscall.c	411
+SS_SYS_getgid	syscall.c	276
+SS_SYS_getgroups	syscall.c	308
+SS_SYS_gethostid	syscall.c	374
+SS_SYS_gethostname	syscall.c	317
+SS_SYS_getitimer	syscall.c	316
+SS_SYS_getmnt	syscall.c	429
+SS_SYS_getpagesize	syscall.c	293
+SS_SYS_getpeername	syscall.c	373
+SS_SYS_getpgrp	syscall.c	310
+SS_SYS_getpid	syscall.c	249
+SS_SYS_getpriority	syscall.c	330
+SS_SYS_getrlimit	syscall.c	376
+SS_SYS_getrusage	syscall.c	348
+SS_SYS_getsockname	syscall.c	382
+SS_SYS_getsockopt	syscall.c	349
+SS_SYS_getsysinfo	syscall.c	440
+SS_SYS_gettimeofday	syscall.c	347
+SS_SYS_getuid	syscall.c	253
+SS_SYS_hdwconf	syscall.c	402
+SS_SYS_ioctl	syscall.c	283
+SS_SYS_kill	syscall.c	266
+SS_SYS_killpg	syscall.c	378
+SS_SYS_link	syscall.c	238
+SS_SYS_listen	syscall.c	337
+SS_SYS_lockf	syscall.c	427
+SS_SYS_lseek	syscall.c	248
+SS_SYS_lstat	syscall.c	269
+SS_SYS_madvise	syscall.c	304
+SS_SYS_mincore	syscall.c	307
+SS_SYS_mkdir	syscall.c	367
+SS_SYS_mknod	syscall.c	243
+SS_SYS_mmap	syscall.c	300
+SS_SYS_mount	syscall.c	250
+SS_SYS_mprotect	syscall.c	303
+SS_SYS_mremap	syscall.c	294
+SS_SYS_msgctl	syscall.c	417
+SS_SYS_msgget	syscall.c	418
+SS_SYS_msgrcv	syscall.c	419
+SS_SYS_msgsnd	syscall.c	420
+SS_SYS_munmap	syscall.c	302
+SS_SYS_nfs_biod	syscall.c	408
+SS_SYS_nfs_getfh	syscall.c	410
+SS_SYS_nfs_svc	syscall.c	406
+SS_SYS_nfssvc	syscall.c	407
+SS_SYS_open	syscall.c	234
+SS_SYS_pipe	syscall.c	271
+SS_SYS_plock	syscall.c	426
+SS_SYS_profil	syscall.c	273
+SS_SYS_ptrace	syscall.c	255
+SS_SYS_quota	syscall.c	381
+SS_SYS_quotactl	syscall.c	399
+SS_SYS_read	syscall.c	232
+SS_SYS_readlink	syscall.c	287
+SS_SYS_readv	syscall.c	351
+SS_SYS_reboot	syscall.c	284
+SS_SYS_recv	syscall.c	332
+SS_SYS_recvfrom	syscall.c	356
+SS_SYS_recvmsg	syscall.c	344
+SS_SYS_rename	syscall.c	359
+SS_SYS_rmdir	syscall.c	368
+SS_SYS_sbrk	syscall.c	298
+SS_SYS_select	syscall.c	323
+SS_SYS_semctl	syscall.c	421
+SS_SYS_semget	syscall.c	422
+SS_SYS_semop	syscall.c	423
+SS_SYS_send	syscall.c	331
+SS_SYS_sendmsg	syscall.c	345
+SS_SYS_sendto	syscall.c	364
+SS_SYS_setdomainname	syscall.c	414
+SS_SYS_setdopt	syscall.c	324
+SS_SYS_setgroups	syscall.c	309
+SS_SYS_sethostid	syscall.c	375
+SS_SYS_sethostname	syscall.c	318
+SS_SYS_setitimer	syscall.c	312
+SS_SYS_setpgrp	syscall.c	311
+SS_SYS_setpriority	syscall.c	326
+SS_SYS_setquota	syscall.c	380
+SS_SYS_setregid	syscall.c	358
+SS_SYS_setreuid	syscall.c	357
+SS_SYS_setrlimit	syscall.c	377
+SS_SYS_setsid	syscall.c	431
+SS_SYS_setsockopt	syscall.c	336
+SS_SYS_setsysinfo	syscall.c	441
+SS_SYS_settimeofday	syscall.c	353
+SS_SYS_shmsys	syscall.c	425
+SS_SYS_shutdown	syscall.c	365
+SS_SYS_sigblock	syscall.c	340
+SS_SYS_sigcleanup	syscall.c	370
+SS_SYS_sigpause	syscall.c	342
+SS_SYS_sigpending	syscall.c	430
+SS_SYS_sigreturn	syscall.c	333
+SS_SYS_sigsetmask	syscall.c	341
+SS_SYS_sigstack	syscall.c	343
+SS_SYS_sigvec	syscall.c	339
+SS_SYS_socket	syscall.c	327
+SS_SYS_socketpair	syscall.c	366
+SS_SYS_sstk	syscall.c	299
+SS_SYS_startcpu	syscall.c	438
+SS_SYS_stat	syscall.c	267
+SS_SYS_statfs	syscall.c	395
+SS_SYS_stopcpu	syscall.c	439
+SS_SYS_swapon	syscall.c	315
+SS_SYS_symlink	syscall.c	286
+SS_SYS_sync	syscall.c	265
+SS_SYS_syscall	syscall.c	229
+SS_SYS_sysmips	syscall.c	384
+SS_SYS_truncate	syscall.c	360
+SS_SYS_umask	syscall.c	289
+SS_SYS_umount	syscall.c	251
+SS_SYS_uname	syscall.c	424
+SS_SYS_unlink	syscall.c	239
+SS_SYS_unmount	syscall.c	397
+SS_SYS_ustat	syscall.c	428
+SS_SYS_utc_adjtime	syscall.c	435
+SS_SYS_utc_gettime	syscall.c	434
+SS_SYS_utimes	syscall.c	369
+SS_SYS_vadvise	syscall.c	301
+SS_SYS_vfork	syscall.c	295
+SS_SYS_vhangup	syscall.c	305
+SS_SYS_wait	syscall.c	314
+SS_SYS_wait3	syscall.c	313
+SS_SYS_waitpid	syscall.c	432
+SS_SYS_writev	syscall.c	352
+STATVAL	sim-cache.c	/^#define STATVAL(STAT)							\\$/
+STATVAL	sim-outorder.c	/^#define STATVAL(STAT)							\\$/
+STATVAL	sim-profile.c	/^#define STATVAL(STAT)							\\$/
+STORE_ADDR_INDEX	sim-outorder.c	1650
+STORE_ADDR_READY	sim-outorder.c	/^#define STORE_ADDR_READY(RS)            ((RS)->ide/
+STORE_HASH_SIZE	sim-outorder.c	2914
+STORE_OP_INDEX	sim-outorder.c	1649
+STORE_OP_READY	sim-outorder.c	/^#define STORE_OP_READY(RS)              ((RS)->ide/
+SYSCALL	sim-bpred.c	/^#define SYSCALL(INST)	sys_syscall(&regs, mem_acces/
+SYSCALL	sim-cache.c	/^#define SYSCALL(INST)							\\$/
+SYSCALL	sim-eio.c	/^#define SYSCALL(INST)							\\$/
+SYSCALL	sim-fast.c	/^#define SYSCALL(INST)	sys_syscall(&regs, mem_acces/
+SYSCALL	sim-outorder.c	/^#define SYSCALL(INST)							\\$/
+SYSCALL	sim-profile.c	/^#define SYSCALL(INST)	sys_syscall(&regs, mem_acces/
+SYSCALL	sim-safe.c	/^#define SYSCALL(INST)	sys_syscall(&regs, mem_acces/
+TAB0	syscall.c	134
+TAB0	syscall.c	187
+TAB1	syscall.c	135
+TAB1	syscall.c	188
+TAB2	syscall.c	136
+TEXT_TAIL_PADDING	loader.c	72
+TOSTOP	syscall.c	144
+Tail	cache.c	189
+ULL_MAX	misc.c	785
+UNIQ	sim-bpred.c	406
+UNIQ	sim-cache.c	642
+UNIQ	sim-eio.c	360
+UNIQ	sim-fast.c	266
+UNIQ	sim-outorder.c	3510
+UNIQ	sim-profile.c	602
+UNIQ	sim-safe.c	229
+WRITE_BYTE	sim-bpred.c	/^#define WRITE_BYTE(SRC, DST, FAULT)					\\$/
+WRITE_BYTE	sim-cache.c	/^#define WRITE_BYTE(SRC, DST, FAULT)					\\$/
+WRITE_BYTE	sim-eio.c	/^#define WRITE_BYTE(SRC, DST, FAULT)					\\$/
+WRITE_BYTE	sim-fast.c	/^#define WRITE_BYTE(SRC, DST, FAULT)					\\$/
+WRITE_BYTE	sim-outorder.c	/^#define WRITE_BYTE(SRC, DST, FAULT)					\\$/
+WRITE_BYTE	sim-profile.c	/^#define WRITE_BYTE(SRC, DST, FAULT)					\\$/
+WRITE_BYTE	sim-safe.c	/^#define WRITE_BYTE(SRC, DST, FAULT)					\\$/
+WRITE_HALF	sim-bpred.c	/^#define WRITE_HALF(SRC, DST, FAULT)					\\$/
+WRITE_HALF	sim-cache.c	/^#define WRITE_HALF(SRC, DST, FAULT)					\\$/
+WRITE_HALF	sim-eio.c	/^#define WRITE_HALF(SRC, DST, FAULT)					\\$/
+WRITE_HALF	sim-fast.c	/^#define WRITE_HALF(SRC, DST, FAULT)					\\$/
+WRITE_HALF	sim-outorder.c	/^#define WRITE_HALF(SRC, DST, FAULT)					\\$/
+WRITE_HALF	sim-profile.c	/^#define WRITE_HALF(SRC, DST, FAULT)					\\$/
+WRITE_HALF	sim-safe.c	/^#define WRITE_HALF(SRC, DST, FAULT)					\\$/
+WRITE_QWORD	sim-bpred.c	/^#define WRITE_QWORD(SRC, DST, FAULT)					\\$/
+WRITE_QWORD	sim-cache.c	/^#define WRITE_QWORD(SRC, DST, FAULT)					\\$/
+WRITE_QWORD	sim-eio.c	/^#define WRITE_QWORD(SRC, DST, FAULT)					\\$/
+WRITE_QWORD	sim-fast.c	/^#define WRITE_QWORD(SRC, DST, FAULT)					\\$/
+WRITE_QWORD	sim-outorder.c	/^#define WRITE_QWORD(SRC, DST, FAULT)					\\$/
+WRITE_QWORD	sim-profile.c	/^#define WRITE_QWORD(SRC, DST, FAULT)					\\$/
+WRITE_QWORD	sim-safe.c	/^#define WRITE_QWORD(SRC, DST, FAULT)					\\$/
+WRITE_WORD	sim-bpred.c	/^#define WRITE_WORD(SRC, DST, FAULT)					\\$/
+WRITE_WORD	sim-cache.c	/^#define WRITE_WORD(SRC, DST, FAULT)					\\$/
+WRITE_WORD	sim-eio.c	/^#define WRITE_WORD(SRC, DST, FAULT)					\\$/
+WRITE_WORD	sim-fast.c	/^#define WRITE_WORD(SRC, DST, FAULT)					\\$/
+WRITE_WORD	sim-outorder.c	/^#define WRITE_WORD(SRC, DST, FAULT)					\\$/
+WRITE_WORD	sim-profile.c	/^#define WRITE_WORD(SRC, DST, FAULT)					\\$/
+WRITE_WORD	sim-safe.c	/^#define WRITE_WORD(SRC, DST, FAULT)					\\$/
+XTABS	syscall.c	137
+XTABS	syscall.c	198
+XX	machine.c	687
+X_OK	sysprobe.c	58
+ZERO_FP_REG	sim-fast.c	/^#define ZERO_FP_REG()	regs.regs_F.d[MD_REG_ZERO] =/
+ZERO_FP_REG	sim-fast.c	/^#define ZERO_FP_REG()	\/* nada... *\/$/
+__CACHE_ACCESS	cache.c	/^#define __CACHE_ACCESS(type, data, bofs)				\\$/
+__QUEUE_EVENT	eventq.c	/^#define __QUEUE_EVENT(WHEN, ID, ACTION)					\\$/
+__READ_CACHE	sim-cache.c	/^#define __READ_CACHE(addr, SRC_T)					\\$/
+__READ_SPECMEM	sim-outorder.c	/^#define __READ_SPECMEM(SRC, SRC_V, FAULT)				\\$/
+__WRITE_CACHE	sim-cache.c	/^#define __WRITE_CACHE(addr, DST_T)					\\$/
+__WRITE_SPECMEM	sim-outorder.c	/^#define __WRITE_SPECMEM(SRC, DST, DST_V, FAULT)			/
+__check_break	dlite.c	/^__check_break(md_addr_t next_PC,		\/* address of ne/
+__opt_process_options	options.c	/^__opt_process_options(struct opt_odb_t *odb,	\/* op/
+__ptrace_endinst	ptrace.c	/^__ptrace_endinst(unsigned int iseq)	\/* instruction/
+__ptrace_newcycle	ptrace.c	/^__ptrace_newcycle(tick_t cycle)		\/* new cycle *\/$/
+__ptrace_newinst	ptrace.c	/^__ptrace_newinst(unsigned int iseq,	\/* instruction/
+__ptrace_newstage	ptrace.c	/^__ptrace_newstage(unsigned int iseq,	\/* instructio/
+__ptrace_newuop	ptrace.c	/^__ptrace_newuop(unsigned int iseq,	\/* instruction /
+_debug	misc.c	/^_debug(char *file, const char *func, int line, cha/
+_fatal	misc.c	/^_fatal(char *file, const char *func, int line, cha/
+_info	misc.c	/^_info(char *file, const char *func, int line, char/
+_lowdigit	misc.c	/^_lowdigit(slargeint_t *valptr)$/
+_panic	misc.c	/^_panic(char *file, const char *func, int line, cha/
+_warn	misc.c	/^_warn(char *file, const char *func, int line, char/
+a_double	eval.c	1170
+a_float	eval.c	1169
+a_symbol	eval.c	1171
+a_uint	eval.c	1168
+access	syscall.c	204
+access	sysprobe.c	57
+acmp	symbol.c	/^acmp(struct sym_sym_t **sym1, struct sym_sym_t **s/
+add_option	options.c	/^add_option(struct opt_odb_t *odb,	\/* option databa/
+add_stat	stats.c	/^add_stat(struct stat_sdb_t *sdb,	\/* stat database /
+addr	eio.c	466
+addr	sim-outorder.c	1501
+addr	sim-outorder.c	2921
+addr_seg_str	sim-profile.c	242
+addr_seg_t	sim-profile.c	233
+am_prof	sim-profile.c	230
+an_int	eval.c	1167
+arg_strs	dlite.c	317
+arg_val_t	dlite.c	299
+as_access	dlite.c	302
+as_modifier	dlite.c	300
+as_str	dlite.c	303
+as_value	dlite.c	301
+banner	main.c	/^banner(FILE *fd, int argc, char **argv)$/
+bc_NUM	sim-profile.c	213
+bc_call_dir	sim-profile.c	209
+bc_call_indir	sim-profile.c	212
+bc_cond_dir	sim-profile.c	208
+bc_cond_indir	sim-profile.c	211
+bc_prof	sim-profile.c	227
+bc_uncond_dir	sim-profile.c	207
+bc_uncond_indir	sim-profile.c	210
+bimod_config	sim-bpred.c	87
+bimod_config	sim-outorder.c	118
+bimod_nelt	sim-bpred.c	86
+bimod_nelt	sim-outorder.c	117
+bind_to_enum	options.c	/^bind_to_enum(char *str,			\/* string to bind to an /
+bind_to_seg	sim-profile.c	/^bind_to_seg(md_addr_t addr)		\/* address to bind to/
+bind_to_str	options.c	/^bind_to_str(int val,			\/* enumeration value *\/$/
+blob	eio.c	469
+bp_class_str	dlite.c	/^bp_class_str(int class)				\/* breakpoint class mas/
+bpred_after_priming	bpred.c	/^bpred_after_priming(struct bpred_t *bpred)$/
+bpred_config	bpred.c	/^bpred_config(struct bpred_t *pred,	\/* branch predi/
+bpred_create	bpred.c	/^bpred_create(enum bpred_class class,	\/* type of pr/
+bpred_dir_config	bpred.c	/^bpred_dir_config($/
+bpred_dir_create	bpred.c	/^bpred_dir_create ($/
+bpred_dir_lookup	bpred.c	/^bpred_dir_lookup(struct bpred_dir_t *pred_dir,	\/* /
+bpred_lookup	bpred.c	/^bpred_lookup(struct bpred_t *pred,	\/* branch predi/
+bpred_mstate_obj	sim-bpred.c	/^bpred_mstate_obj(FILE *stream,			\/* output stream /
+bpred_recover	bpred.c	/^bpred_recover(struct bpred_t *pred,	\/* branch pred/
+bpred_reg_stats	bpred.c	/^bpred_reg_stats(struct bpred_t *pred,	\/* branch pr/
+bpred_spec_opt	sim-outorder.c	367
+bpred_spec_update	sim-outorder.c	368
+bpred_stats	bpred.c	/^bpred_stats(struct bpred_t *pred,	\/* branch predic/
+bpred_update	bpred.c	/^bpred_update(struct bpred_t *pred,	\/* branch predi/
+branch_class_str	sim-profile.c	217
+branch_class_t	sim-profile.c	206
+break_access	dlite.c	1782
+break_id	dlite.c	1677
+btb_config	sim-bpred.c	105
+btb_config	sim-outorder.c	136
+btb_nelt	sim-bpred.c	104
+btb_nelt	sim-outorder.c	135
+bucket_free_list	sim-outorder.c	2929
+bugcompat_mode	sim-outorder.c	239
+builtin_options	options.c	1445
+cache_access	cache.c	/^cache_access(struct cache_t *cp,	\/* cache to acces/
+cache_char2policy	cache.c	/^cache_char2policy(char c)		\/* replacement policy a/
+cache_config	cache.c	/^cache_config(struct cache_t *cp,	\/* cache instance/
+cache_create	cache.c	/^cache_create(char *name,		\/* name of the cache *\/$/
+cache_dl1	sim-cache.c	96
+cache_dl1	sim-outorder.c	377
+cache_dl1_lat	sim-outorder.c	164
+cache_dl1_opt	sim-cache.c	230
+cache_dl1_opt	sim-outorder.c	161
+cache_dl2	sim-cache.c	99
+cache_dl2	sim-outorder.c	380
+cache_dl2_lat	sim-outorder.c	170
+cache_dl2_opt	sim-cache.c	231
+cache_dl2_opt	sim-outorder.c	167
+cache_flush	cache.c	/^cache_flush(struct cache_t *cp,		\/* cache instance/
+cache_flush_addr	cache.c	/^cache_flush_addr(struct cache_t *cp,	\/* cache inst/
+cache_il1	sim-cache.c	90
+cache_il1	sim-outorder.c	371
+cache_il1_lat	sim-outorder.c	176
+cache_il1_opt	sim-cache.c	232
+cache_il1_opt	sim-outorder.c	173
+cache_il2	sim-cache.c	93
+cache_il2	sim-outorder.c	374
+cache_il2_lat	sim-outorder.c	182
+cache_il2_opt	sim-cache.c	233
+cache_il2_opt	sim-outorder.c	179
+cache_mstate_obj	sim-cache.c	/^cache_mstate_obj(FILE *stream,			\/* output stream /
+cache_probe	cache.c	/^cache_probe(struct cache_t *cp,		\/* cache instance/
+cache_reg_stats	cache.c	/^cache_reg_stats(struct cache_t *cp,	\/* cache insta/
+cache_stats	cache.c	/^cache_stats(struct cache_t *cp,		\/* cache instance/
+chdir	options.c	57
+chdir	syscall.c	206
+chkpt_fd	sim-eio.c	102
+chkpt_fname	sim-eio.c	101
+chkpt_kind	sim-eio.c	100
+chkpt_nelt	sim-eio.c	111
+chkpt_num	sim-eio.c	108
+chkpt_opts	sim-eio.c	112
+chkpt_range	sim-eio.c	103
+chmod	syscall.c	205
+close	syscall.c	218
+cmd	misc.c	1065
+cmd_db	dlite.c	424
+cmd_fn	dlite.c	325
+cmd_fn_t	dlite.c	308
+cmd_str	dlite.c	316
+comb_config	sim-bpred.c	97
+comb_config	sim-outorder.c	128
+comb_nelt	sim-bpred.c	96
+comb_nelt	sim-outorder.c	127
+compare_fn	stats.c	/^compare_fn(void *p1, void *p2)$/
+completed	sim-outorder.c	1511
+compress_icache_addrs	sim-cache.c	237
+compress_icache_addrs	sim-outorder.c	188
+config_opt	options.c	1442
+constant	eval.c	/^constant(struct eval_state_t *es)	\/* expression ev/
+crc	misc.c	/^crc(word_t crc_accum, word_t data)$/
+crc_gentab	misc.c	/^crc_gentab(void)$/
+crc_init	misc.c	1146
+crc_table	misc.c	1147
+creat	syscall.c	209
+create_vector	sim-outorder.c	2056
+create_vector_rt	sim-outorder.c	2061
+cv_dump	sim-outorder.c	/^cv_dump(FILE *stream)				\/* output stream *\/$/
+cv_init	sim-outorder.c	/^cv_init(void)$/
+d	regs.c	95
+data	sim-outorder.c	2922
+dcache_access_fn	sim-cache.c	/^dcache_access_fn(struct mem_t *mem,	\/* memory spac/
+debugging	misc.c	72
+dec	sim-fast.c	97
+delete_break	dlite.c	/^delete_break(int id)				\/* id of brkpnt to delete /
+dir_update	sim-outorder.c	1499
+dir_update	sim-outorder.c	2944
+dl1_access_fn	sim-cache.c	/^dl1_access_fn(enum mem_cmd cmd,		\/* access cmd, Re/
+dl1_access_fn	sim-outorder.c	/^dl1_access_fn(enum mem_cmd cmd,		\/* access cmd, Re/
+dl2_access_fn	sim-cache.c	/^dl2_access_fn(enum mem_cmd cmd,		\/* access cmd, Re/
+dl2_access_fn	sim-outorder.c	/^dl2_access_fn(enum mem_cmd cmd,		\/* access cmd, Re/
+dlite_active	dlite.c	79
+dlite_bps	dlite.c	1674
+dlite_break	dlite.c	/^dlite_break(int nargs, union arg_val_t args[],	\/* /
+dlite_break_t	dlite.c	1666
+dlite_breaks	dlite.c	/^dlite_breaks(int nargs, union arg_val_t args[],	\/*/
+dlite_check	dlite.c	82
+dlite_clear	dlite.c	/^dlite_clear(int nargs, union arg_val_t args[],	\/* /
+dlite_cmd_t	dlite.c	315
+dlite_cont	dlite.c	/^dlite_cont(int nargs, union arg_val_t args[],	\/* c/
+dlite_cregs	dlite.c	/^dlite_cregs(int nargs, union arg_val_t args[],	\/* /
+dlite_dbreak	dlite.c	/^dlite_dbreak(int nargs, union arg_val_t args[],	\/*/
+dlite_delete	dlite.c	/^dlite_delete(int nargs, union arg_val_t args[],	\/*/
+dlite_dis	dlite.c	/^dlite_dis(int nargs, union arg_val_t args[],	\/* co/
+dlite_display	dlite.c	/^dlite_display(int nargs, union arg_val_t args[],\/*/
+dlite_dsymbols	dlite.c	/^dlite_dsymbols(int nargs, union arg_val_t args[],\//
+dlite_dump	dlite.c	/^dlite_dump(int nargs, union arg_val_t args[],	\/* c/
+dlite_evaluator	dlite.c	185
+dlite_exec	dlite.c	/^dlite_exec(char *cmd_str,			\/* command string *\/$/
+dlite_fpregs	dlite.c	/^dlite_fpregs(int nargs, union arg_val_t args[],	\/*/
+dlite_help	dlite.c	/^dlite_help(int nargs, union arg_val_t args[],	\/* c/
+dlite_help_tail	dlite.c	500
+dlite_init	dlite.c	/^dlite_init(dlite_reg_obj_t reg_obj,		\/* register s/
+dlite_iregs	dlite.c	/^dlite_iregs(int nargs, union arg_val_t args[],	\/* /
+dlite_main	dlite.c	/^dlite_main(md_addr_t regs_PC,			\/* addr of last in/
+dlite_mem_obj	dlite.c	/^dlite_mem_obj(struct mem_t *mem,		\/* memory space /
+dlite_mstate	dlite.c	/^dlite_mstate(int nargs, union arg_val_t args[],	\/*/
+dlite_mstate_obj	dlite.c	/^dlite_mstate_obj(FILE *stream,			\/* output stream /
+dlite_next	dlite.c	/^dlite_next(int nargs, union arg_val_t args[])	\/* c/
+dlite_option	dlite.c	/^dlite_option(int nargs, union arg_val_t args[],	\/*/
+dlite_options	dlite.c	/^dlite_options(int nargs, union arg_val_t args[],\/*/
+dlite_pause	dlite.c	/^dlite_pause(void)$/
+dlite_print	dlite.c	/^dlite_print(int nargs, union arg_val_t args[],	\/* /
+dlite_quit	dlite.c	/^dlite_quit(int nargs, union arg_val_t args[],	\/* c/
+dlite_rbreak	dlite.c	/^dlite_rbreak(int nargs, union arg_val_t args[],	\/*/
+dlite_regs	dlite.c	/^dlite_regs(int nargs, union arg_val_t args[],	\/* c/
+dlite_return	dlite.c	85
+dlite_stat	dlite.c	/^dlite_stat(int nargs, union arg_val_t args[],	\/* c/
+dlite_stats	dlite.c	/^dlite_stats(int nargs, union arg_val_t args[],	\/* /
+dlite_status	dlite.c	/^dlite_status(md_addr_t regs_PC,			\/* PC of just co/
+dlite_step	dlite.c	/^dlite_step(int nargs, union arg_val_t args[],	\/* c/
+dlite_symbol	dlite.c	/^dlite_symbol(int nargs, union arg_val_t args[],	\/*/
+dlite_symbols	dlite.c	/^dlite_symbols(int nargs, union arg_val_t args[],\/*/
+dlite_terminate	dlite.c	/^dlite_terminate(int nargs, union arg_val_t args[],/
+dlite_tsymbols	dlite.c	/^dlite_tsymbols(int nargs, union arg_val_t args[],\//
+dlite_version	dlite.c	/^dlite_version(int nargs, union arg_val_t args[],\/*/
+dlite_whatis	dlite.c	/^dlite_whatis(int nargs, union arg_val_t args[],	\/*/
+dsym_names	sim-profile.c	275
+dsym_prof	sim-profile.c	274
+dtlb	sim-cache.c	105
+dtlb	sim-outorder.c	386
+dtlb_access_fn	sim-cache.c	/^dtlb_access_fn(enum mem_cmd cmd,	\/* access cmd, Re/
+dtlb_access_fn	sim-outorder.c	/^dtlb_access_fn(enum mem_cmd cmd,	\/* access cmd, Re/
+dtlb_opt	sim-cache.c	235
+dtlb_opt	sim-outorder.c	202
+dump_config	options.c	/^dump_config(struct opt_odb_t *odb,	\/* option data /
+dumpconfig_opt	options.c	1439
+dup	syscall.c	211
+dup2	syscall.c	212
+ea_comp	sim-outorder.c	1496
+eio_close	eio.c	/^eio_close(FILE *fd)$/
+eio_create	eio.c	/^eio_create(char *fname)$/
+eio_fast_forward	eio.c	/^eio_fast_forward(FILE *eio_fd, counter_t icnt)$/
+eio_open	eio.c	/^eio_open(char *fname)$/
+eio_read_chkpt	eio.c	/^eio_read_chkpt(struct regs_t *regs,		\/* regs to du/
+eio_read_trace	eio.c	/^eio_read_trace(FILE *eio_fd,			\/* EIO stream file /
+eio_trans_icnt	eio.c	94
+eio_valid	eio.c	/^eio_valid(char *fname)$/
+eio_write_chkpt	eio.c	/^eio_write_chkpt(struct regs_t *regs,		\/* regs to d/
+eio_write_trace	eio.c	/^eio_write_trace(FILE *eio_fd,			\/* EIO stream file/
+elapsed_time	misc.c	/^elapsed_time(long sec)$/
+endian_host_byte_order	endian.c	/^endian_host_byte_order(void)$/
+endian_host_word_order	endian.c	/^endian_host_word_order(void)$/
+endian_target_byte_order	endian.c	/^endian_target_byte_order(void)$/
+endian_target_word_order	endian.c	/^endian_target_word_order(void)$/
+enum_NUM	options.c	1726
+enum_a	options.c	1726
+enum_b	options.c	1726
+enum_c	options.c	1726
+enum_d	options.c	1726
+err_value	eval.c	229
+etest_t	options.c	1726
+eval_as_addr	eval.c	/^eval_as_addr(struct eval_value_t val)$/
+eval_as_double	eval.c	/^eval_as_double(struct eval_value_t val)$/
+eval_as_float	eval.c	/^eval_as_float(struct eval_value_t val)$/
+eval_as_int	eval.c	/^eval_as_int(struct eval_value_t val)$/
+eval_as_qword	eval.c	/^eval_as_qword(struct eval_value_t val)$/
+eval_as_sqword	eval.c	/^eval_as_sqword(struct eval_value_t val)$/
+eval_as_uint	eval.c	/^eval_as_uint(struct eval_value_t val)$/
+eval_delete	eval.c	/^eval_delete(struct eval_state_t *es)	\/* evaluator /
+eval_err_str	eval.c	69
+eval_error	eval.c	66
+eval_expr	eval.c	/^eval_expr(struct eval_state_t *es,	\/* expression e/
+eval_new	eval.c	/^eval_new(eval_ident_t f_eval_ident,	\/* user ident /
+eval_print	eval.c	/^eval_print(FILE *stream,		\/* output stream *\/$/
+eval_type_str	eval.c	232
+event_queue	sim-outorder.c	1815
+eventq_dump	eventq.c	/^eventq_dump(FILE *stream)$/
+eventq_dump	sim-outorder.c	/^eventq_dump(FILE *stream)			\/* output stream *\/$/
+eventq_event_count	eventq.c	61
+eventq_execute	eventq.c	/^eventq_execute(EVENTQ_ID_TYPE id)$/
+eventq_free	eventq.c	63
+eventq_init	eventq.c	/^eventq_init(int max_events)$/
+eventq_init	sim-outorder.c	/^eventq_init(void)$/
+eventq_max_events	eventq.c	60
+eventq_next_event	sim-outorder.c	/^eventq_next_event(void)$/
+eventq_pending	eventq.c	62
+eventq_queue_addop	eventq.c	/^eventq_queue_addop(SS_TIME_TYPE when, int *summand/
+eventq_queue_callback	eventq.c	/^eventq_queue_callback(SS_TIME_TYPE when,$/
+eventq_queue_clearbit	eventq.c	/^eventq_queue_clearbit(SS_TIME_TYPE when,$/
+eventq_queue_event	sim-outorder.c	/^eventq_queue_event(struct RUU_station *rs, tick_t /
+eventq_queue_setbit	eventq.c	/^eventq_queue_setbit(SS_TIME_TYPE when,$/
+eventq_queue_setflag	eventq.c	/^eventq_queue_setflag(SS_TIME_TYPE when, int *pflag/
+eventq_remove	eventq.c	/^eventq_remove(EVENTQ_ID_TYPE id)$/
+eventq_service_events	eventq.c	/^eventq_service_events(SS_TIME_TYPE now)$/
+exec_index	main.c	135
+exit_now	main.c	/^exit_now(int exit_code)$/
+exo	eio.c	468
+expr	eval.c	/^expr(struct eval_state_t *es)		\/* expression evalu/
+ext	misc.c	1064
+extractl	misc.c	/^extractl(int word,		\/* the word from which to extr/
+f	regs.c	94
+f_add	eval.c	/^f_add(struct eval_value_t val1, struct eval_value_/
+f_div	eval.c	/^f_div(struct eval_value_t val1, struct eval_value_/
+f_dlite_mem_obj	dlite.c	75
+f_dlite_mstate_obj	dlite.c	76
+f_dlite_reg_obj	dlite.c	74
+f_eq_zero	eval.c	/^f_eq_zero(struct eval_value_t val1)$/
+f_mult	eval.c	/^f_mult(struct eval_value_t val1, struct eval_value/
+f_neg	eval.c	/^f_neg(struct eval_value_t val1)$/
+f_orphan_fn	options.c	/^f_orphan_fn(int i, int argc, char **argv)$/
+f_sub	eval.c	/^f_sub(struct eval_value_t val1, struct eval_value_/
+factor	eval.c	/^factor(struct eval_state_t *es)		\/* expression eva/
+fast_SRA	sysprobe.c	/^fast_SRA(void)$/
+fast_SRL	sysprobe.c	/^fast_SRL(void)$/
+fastfwd_count	sim-eio.c	90
+fastfwd_count	sim-outorder.c	98
+fastfwding	sim-eio.c	93
+fatal_hook	misc.c	/^fatal_hook(void (*fn)(FILE *stream))	\/* fatal hook/
+fetch_data	sim-outorder.c	2948
+fetch_dump	sim-outorder.c	/^fetch_dump(FILE *stream)			\/* output stream *\/$/
+fetch_head	sim-outorder.c	2950
+fetch_init	sim-outorder.c	/^fetch_init(void)$/
+fetch_num	sim-outorder.c	2949
+fetch_pred_PC	sim-outorder.c	2938
+fetch_rec	sim-outorder.c	2941
+fetch_regs_PC	sim-outorder.c	2937
+fetch_speed	sim-outorder.c	111
+fetch_tail	sim-outorder.c	2950
+flag_emap	options.c	607
+flag_eval	options.c	613
+flags2str	symbol.c	/^flags2str(unsigned int flags)	\/* bfd symbol flags /
+flush_on_syscalls	sim-cache.c	236
+flush_on_syscalls	sim-outorder.c	185
+fsm	sim-profile.c	637
+fstat	syscall.c	214
+fu_config	sim-outorder.c	253
+fu_pool	sim-outorder.c	392
+get_next_token	eval.c	/^get_next_token(struct eval_state_t *es)	\/* express/
+getcore	misc.c	/^getcore(int nbytes)$/
+getcwd	options.c	58
+getpid	syscall.c	219
+gzclose	misc.c	/^gzclose(FILE *fd)$/
+gzclose	misc.c	/^gzclose(FILE *fd)$/
+gzcmds	misc.c	1066
+gzip_paths	sysprobe.c	64
+gzopen	misc.c	/^gzopen(char *fname, char *type)$/
+gzopen	misc.c	/^gzopen(char *fname, char *type)$/
+help_me	main.c	138
+help_str	dlite.c	326
+ic_NUM	sim-profile.c	182
+ic_cond	sim-profile.c	178
+ic_fcomp	sim-profile.c	180
+ic_icomp	sim-profile.c	179
+ic_load	sim-profile.c	175
+ic_prof	sim-profile.c	197
+ic_store	sim-profile.c	176
+ic_trap	sim-profile.c	181
+ic_uncond	sim-profile.c	177
+id	dlite.c	1668
+ident_evaluator	dlite.c	/^ident_evaluator(struct eval_state_t *es)	\/* expres/
+idep_ready	sim-outorder.c	1524
+il1_access_fn	sim-cache.c	/^il1_access_fn(enum mem_cmd cmd,		\/* access cmd, Re/
+il1_access_fn	sim-outorder.c	/^il1_access_fn(enum mem_cmd cmd,		\/* access cmd, Re/
+il2_access_fn	sim-cache.c	/^il2_access_fn(enum mem_cmd cmd,		\/* access cmd, Re/
+il2_access_fn	sim-outorder.c	/^il2_access_fn(enum mem_cmd cmd,		\/* access cmd, Re/
+in_LSQ	sim-outorder.c	1495
+init_quit	main.c	144
+init_tok_map	eval.c	/^init_tok_map(void)$/
+input_mem	eio.c	477
+input_mem_rec	eio.c	478
+input_regs	eio.c	473
+inst_class_str	sim-profile.c	186
+inst_class_t	sim-profile.c	174
+inst_prof	sim-profile.c	203
+inst_seq	sim-outorder.c	349
+inst_str	sim-profile.c	200
+issued	sim-outorder.c	1510
+itlb	sim-cache.c	102
+itlb	sim-outorder.c	383
+itlb_access_fn	sim-cache.c	/^itlb_access_fn(enum mem_cmd cmd,	\/* access cmd, Re/
+itlb_access_fn	sim-outorder.c	/^itlb_access_fn(enum mem_cmd cmd,	\/* access cmd, Re/
+itlb_opt	sim-cache.c	234
+itlb_opt	sim-outorder.c	199
+l	regs.c	93
+largeint_t	misc.c	393
+largeint_t	misc.c	397
+last_inst_missed	sim-outorder.c	4195
+last_inst_tmissed	sim-outorder.c	4196
+last_op	sim-outorder.c	3695
+ld_brk_point	loader.c	87
+ld_data_base	loader.c	81
+ld_data_size	loader.c	84
+ld_environ_base	loader.c	105
+ld_load_prog	loader.c	/^ld_load_prog(char *fname,		\/* program to load *\/$/
+ld_prog_entry	loader.c	102
+ld_prog_fname	loader.c	99
+ld_reg_stats	loader.c	/^ld_reg_stats(struct stat_sdb_t *sdb)	\/* stats data/
+ld_stack_base	loader.c	90
+ld_stack_min	loader.c	96
+ld_stack_size	loader.c	93
+ld_target_big_endian	loader.c	108
+ld_text_base	loader.c	75
+ld_text_size	loader.c	78
+link_htab_ent	cache.c	/^link_htab_ent(struct cache_t *cp,		\/* cache to upd/
+list_loc_t	cache.c	189
+load_locals	sim-profile.c	95
+local_flag	syscall.c	559
+local_mem_fn	eio.c	485
+local_regs	dlite.c	186
+log_base2	misc.c	/^log_base2(int n)$/
+lseek	syscall.c	215
+lsq_dump	sim-outorder.c	/^lsq_dump(FILE *stream)				\/* output stream *\/$/
+lsq_init	sim-outorder.c	/^lsq_init(void)$/
+lsq_refresh	sim-outorder.c	/^lsq_refresh(void)$/
+max_insts	sim-bpred.c	80
+max_insts	sim-cache.c	87
+max_insts	sim-eio.c	87
+max_insts	sim-outorder.c	95
+max_insts	sim-profile.c	84
+max_insts	sim-safe.c	85
+maxsize	eio.c	467
+md_amode_str	machine.c	136
+md_crc_regs	machine.c	/^md_crc_regs(struct regs_t *regs)$/
+md_fu2name	machine.c	95
+md_init_decoder	machine.c	/^md_init_decoder(void)$/
+md_lr_masks	machine.c	120
+md_mask2op	machine.c	65
+md_op2flags	machine.c	111
+md_op2format	machine.c	77
+md_op2fu	machine.c	86
+md_op2name	machine.c	68
+md_print_creg	machine.c	/^md_print_creg(md_ctrl_t regs, int reg, FILE *strea/
+md_print_cregs	machine.c	/^md_print_cregs(md_ctrl_t regs, FILE *stream)$/
+md_print_fpreg	machine.c	/^md_print_fpreg(md_fpr_t regs, int reg, FILE *strea/
+md_print_fpregs	machine.c	/^md_print_fpregs(md_fpr_t regs, FILE *stream)$/
+md_print_insn	machine.c	/^md_print_insn(md_inst_t inst,		\/* instruction to d/
+md_print_ireg	machine.c	/^md_print_ireg(md_gpr_t regs, int reg, FILE *stream/
+md_print_iregs	machine.c	/^md_print_iregs(md_gpr_t regs, FILE *stream)$/
+md_reg_name	machine.c	/^md_reg_name(enum md_reg_type rt, int reg)$/
+md_reg_names	machine.c	147
+md_reg_obj	machine.c	/^md_reg_obj(struct regs_t *regs,			\/* registers to /
+md_xor_regs	machine.c	/^md_xor_regs(struct regs_t *regs)$/
+mem	sim-bpred.c	77
+mem	sim-cache.c	81
+mem	sim-eio.c	81
+mem	sim-fast.c	93
+mem	sim-outorder.c	87
+mem	sim-profile.c	78
+mem	sim-safe.c	79
+mem_access	memory.c	/^mem_access(struct mem_t *mem,		\/* memory space to /
+mem_access_latency	sim-outorder.c	/^mem_access_latency(int blk_sz)		\/* block size acce/
+mem_bcopy	memory.c	/^mem_bcopy(mem_access_fn mem_fn,		\/* user-specified/
+mem_bcopy4	memory.c	/^mem_bcopy4(mem_access_fn mem_fn,	\/* user-specified/
+mem_bus_width	sim-outorder.c	196
+mem_bzero	memory.c	/^mem_bzero(mem_access_fn mem_fn,		\/* user-specified/
+mem_create	memory.c	/^mem_create(char *name)			\/* name of the memory spa/
+mem_dump	memory.c	/^mem_dump(struct mem_t *mem,		\/* memory space to di/
+mem_init	memory.c	/^mem_init(struct mem_t *mem)	\/* memory space to ini/
+mem_init1	memory.c	/^mem_init1(void)$/
+mem_lat	sim-outorder.c	192
+mem_nelt	sim-outorder.c	191
+mem_newpage	memory.c	/^mem_newpage(struct mem_t *mem,		\/* memory space to/
+mem_rec_t	eio.c	465
+mem_reg_stats	memory.c	/^mem_reg_stats(struct mem_t *mem,	\/* memory space t/
+mem_strcpy	memory.c	/^mem_strcpy(mem_access_fn mem_fn,	\/* user-specified/
+mem_translate	memory.c	/^mem_translate(struct mem_t *mem,	\/* memory space t/
+mem_valid	memory.c	/^mem_valid(enum mem_cmd cmd,		\/* Read (from sim mem/
+modifier_parser	dlite.c	/^modifier_parser(char *p,		\/* ptr to \/<mods> string/
+mspec_dump	sim-outorder.c	/^mspec_dump(FILE *stream)			\/* output stream *\/$/
+my_eval_ident	eval.c	/^my_eval_ident(struct eval_state_t *es)$/
+my_mem_fn	eio.c	/^my_mem_fn(struct mem_t *mem,		\/* memory space to a/
+myatoq	misc.c	/^myatoq(char *nptr, char **endp, int base)$/
+myatosq	misc.c	/^myatosq(char *nptr, char **endp, int base)$/
+myfprintf	misc.c	/^myfprintf(FILE *stream, char *format, ...)$/
+myrand	misc.c	/^myrand(void)			\/* returns random number *\/$/
+mysprintf	misc.c	/^mysprintf(char *obuf, char *format, ...)$/
+mysrand	misc.c	/^mysrand(unsigned int seed)	\/* random number genera/
+mystrdup	misc.c	/^mystrdup(char *s)		\/* string to duplicate to heap /
+mystricmp	misc.c	/^mystricmp(char *s1, char *s2)	\/* strings to compar/
+mystrrchr	misc.c	/^mystrrchr(char *s, char c)$/
+myvfprintf	misc.c	/^myvfprintf(FILE *stream, char *format, va_list v)$/
+myvsprintf	misc.c	/^myvsprintf(char *obuf, char *format, va_list v)$/
+ncmp	symbol.c	/^ncmp(struct sym_sym_t **sym1, struct sym_sym_t **s/
+next	dlite.c	1667
+next	sim-outorder.c	1708
+next	sim-outorder.c	2920
+next_ID	eventq.c	65
+next_PC	sim-outorder.c	1494
+next_chkpt_cycle	sim-eio.c	107
+nice_priority	main.c	148
+no_chkpt	sim-eio.c	100
+odep_list	sim-outorder.c	1516
+odep_num	sim-outorder.c	2040
+onames	sim-outorder.c	1515
+one_shot_chkpt	sim-eio.c	100
+op	sim-outorder.c	1493
+open	syscall.c	208
+opnum	sim-outorder.c	1714
+opt_delete	options.c	/^opt_delete(struct opt_odb_t *odb)	\/* option databa/
+opt_find_option	options.c	/^opt_find_option(struct opt_odb_t *odb,	\/* option d/
+opt_new	options.c	/^opt_new(orphan_fn_t orphan_fn)	\/* user-specified o/
+opt_null_string	options.c	/^opt_null_string(struct opt_opt_t *opt)$/
+opt_print_help	options.c	/^opt_print_help(struct opt_odb_t *odb,	\/* option da/
+opt_print_option	options.c	/^opt_print_option(struct opt_opt_t *opt,\/* option v/
+opt_print_options	options.c	/^opt_print_options(struct opt_odb_t *odb,\/* option /
+opt_process_options	options.c	/^opt_process_options(struct opt_odb_t *odb,	\/* opti/
+opt_reg_double	options.c	/^opt_reg_double(struct opt_odb_t *odb,	\/* option da/
+opt_reg_double_list	options.c	/^opt_reg_double_list(struct opt_odb_t *odb, \/* opti/
+opt_reg_enum	options.c	/^opt_reg_enum(struct opt_odb_t *odb,	\/* option data/
+opt_reg_enum_list	options.c	/^opt_reg_enum_list(struct opt_odb_t *odb,\/* option /
+opt_reg_flag	options.c	/^opt_reg_flag(struct opt_odb_t *odb,	\/* option data/
+opt_reg_flag_list	options.c	/^opt_reg_flag_list(struct opt_odb_t *odb,\/* option /
+opt_reg_float	options.c	/^opt_reg_float(struct opt_odb_t *odb,	\/* option dat/
+opt_reg_float_list	options.c	/^opt_reg_float_list(struct opt_odb_t *odb,\/* option/
+opt_reg_header	options.c	/^opt_reg_header(struct opt_odb_t *odb,	\/* option da/
+opt_reg_int	options.c	/^opt_reg_int(struct opt_odb_t *odb,	\/* option data /
+opt_reg_int_list	options.c	/^opt_reg_int_list(struct opt_odb_t *odb,\/* option d/
+opt_reg_note	options.c	/^opt_reg_note(struct opt_odb_t *odb,	\/* option data/
+opt_reg_string	options.c	/^opt_reg_string(struct opt_odb_t *odb,	\/* option da/
+opt_reg_string_list	options.c	/^opt_reg_string_list(struct opt_odb_t *odb,\/* optio/
+opt_reg_uint	options.c	/^opt_reg_uint(struct opt_odb_t *odb,	\/* option data/
+opt_reg_uint_list	options.c	/^opt_reg_uint_list(struct opt_odb_t *odb,\/* option /
+orphan_fn	main.c	/^orphan_fn(int i, int argc, char **argv)$/
+output_mem	eio.c	481
+output_mem_rec	eio.c	482
+output_regs	eio.c	474
+pcstat_lastvals	sim-cache.c	110
+pcstat_lastvals	sim-outorder.c	396
+pcstat_lastvals	sim-profile.c	282
+pcstat_nelt	sim-cache.c	240
+pcstat_nelt	sim-outorder.c	224
+pcstat_nelt	sim-profile.c	100
+pcstat_sdists	sim-cache.c	111
+pcstat_sdists	sim-outorder.c	397
+pcstat_sdists	sim-profile.c	283
+pcstat_stats	sim-cache.c	109
+pcstat_stats	sim-outorder.c	395
+pcstat_stats	sim-profile.c	281
+pcstat_vars	sim-cache.c	241
+pcstat_vars	sim-outorder.c	225
+pcstat_vars	sim-profile.c	101
+peek_next_token	eval.c	/^peek_next_token(struct eval_state_t *es) \/* expres/
+per_chkpt_interval	sim-eio.c	106
+per_chkpt_nelt	sim-eio.c	115
+per_chkpt_opts	sim-eio.c	116
+periodic_chkpt	sim-eio.c	100
+pipe	syscall.c	210
+pred	sim-bpred.c	109
+pred	sim-outorder.c	389
+pred_PC	sim-outorder.c	1494
+pred_PC	sim-outorder.c	2933
+pred_PC	sim-outorder.c	2943
+pred_perfect	sim-outorder.c	364
+pred_type	sim-bpred.c	83
+pred_type	sim-outorder.c	114
+print_dist	stats.c	/^print_dist(struct stat_stat_t *stat,	\/* stat varia/
+print_help	dlite.c	/^print_help(struct dlite_cmd_t *cmd)		\/* command to/
+print_help	options.c	/^print_help(struct opt_opt_t *opt,	\/* option variab/
+print_option_header	options.c	/^print_option_header(struct opt_odb_t *odb,\/* optio/
+print_option_notes	options.c	/^print_option_notes(struct opt_odb_t *odb,\/* option/
+print_sdist	stats.c	/^print_sdist(struct stat_stat_t *stat,	\/* stat vari/
+print_val	dlite.c	/^print_val(int modifiers,			\/* print modifiers *\/$/
+process_file	options.c	/^process_file(struct opt_odb_t *odb, char *fname, i/
+process_option	options.c	/^process_option(struct opt_odb_t *odb,	\/* option da/
+prof_all	sim-profile.c	87
+prof_am	sim-profile.c	91
+prof_bc	sim-profile.c	90
+prof_dsyms	sim-profile.c	94
+prof_ic	sim-profile.c	88
+prof_inst	sim-profile.c	89
+prof_seg	sim-profile.c	92
+prof_taddr	sim-profile.c	96
+prof_tsyms	sim-profile.c	93
+profile_mstate_obj	sim-profile.c	/^profile_mstate_obj(FILE *stream,		\/* output stream/
+ptrace_active	ptrace.c	65
+ptrace_close	ptrace.c	/^ptrace_close(void)$/
+ptrace_nelt	sim-outorder.c	101
+ptrace_oneshot	ptrace.c	71
+ptrace_open	ptrace.c	/^ptrace_open(char *fname,		\/* output filename *\/$/
+ptrace_opts	sim-outorder.c	102
+ptrace_outfd	ptrace.c	62
+ptrace_range	ptrace.c	68
+ptrace_seq	sim-outorder.c	352
+ptrace_seq	sim-outorder.c	1506
+ptrace_seq	sim-outorder.c	2946
+queued	sim-outorder.c	1509
+rand_seed	main.c	141
+range	dlite.c	1670
+range_cmp_pos	range.c	/^range_cmp_pos(struct range_pos_t *pos,		\/* executi/
+range_cmp_range	range.c	/^range_cmp_range(struct range_range_t *range,	\/* ex/
+range_cmp_range1	range.c	/^range_cmp_range1(struct range_range_t *range,	\/* e/
+range_parse_pos	range.c	/^range_parse_pos(char *pstr,			\/* execution positio/
+range_parse_range	range.c	/^range_parse_range(char *rstr,			\/* execution range/
+range_print_pos	range.c	/^range_print_pos(struct range_pos_t *pos,	\/* execut/
+range_print_range	range.c	/^range_print_range(struct range_range_t *range,	\/* /
+ras_size	sim-bpred.c	101
+ras_size	sim-outorder.c	132
+read	syscall.c	216
+ready_queue	sim-outorder.c	1941
+readyq_dump	sim-outorder.c	/^readyq_dump(FILE *stream)			\/* output stream *\/$/
+readyq_enqueue	sim-outorder.c	/^readyq_enqueue(struct RUU_station *rs)		\/* RS to e/
+readyq_init	sim-outorder.c	/^readyq_init(void)$/
+recover_PC	sim-outorder.c	2934
+recover_inst	sim-outorder.c	1497
+regs	sim-bpred.c	74
+regs	sim-cache.c	78
+regs	sim-eio.c	78
+regs	sim-fast.c	90
+regs	sim-outorder.c	84
+regs	sim-profile.c	75
+regs	sim-safe.c	76
+regs_F	regs.c	149
+regs_FCC	regs.c	157
+regs_FP_t	regs.c	92
+regs_HI	regs.c	152
+regs_LO	regs.c	154
+regs_PC	regs.c	160
+regs_PC	sim-outorder.c	2943
+regs_R	regs.c	146
+regs_create	regs.c	/^regs_create(void)$/
+regs_dump	regs.c	/^regs_dump(FILE *stream)		\/* output stream *\/$/
+regs_init	regs.c	/^regs_init(struct regs_t *regs)		\/* register file t/
+res_create_pool	resource.c	/^res_create_pool(char *name, struct res_desc *pool,/
+res_dump	resource.c	/^res_dump(struct res_pool *pool, FILE *stream)$/
+res_fpalu	sim-outorder.c	217
+res_fpmult	sim-outorder.c	220
+res_get	resource.c	/^res_get(struct res_pool *pool, int class)$/
+res_ialu	sim-outorder.c	208
+res_imult	sim-outorder.c	211
+res_memport	sim-outorder.c	214
+result_type	eval.c	/^result_type(enum eval_type_t t1,	\/* left operand t/
+rs	sim-outorder.c	1709
+rs	sim-outorder.c	2039
+rslink_free_list	sim-outorder.c	1719
+rslink_init	sim-outorder.c	/^rslink_init(int nlinks)			\/* total number of RS_LI/
+rspec_dump	sim-outorder.c	/^rspec_dump(FILE *stream)			\/* output stream *\/$/
+running	main.c	185
+ruu_branch_penalty	sim-outorder.c	108
+ruu_commit	sim-outorder.c	/^ruu_commit(void)$/
+ruu_commit_width	sim-outorder.c	152
+ruu_decode_width	sim-outorder.c	140
+ruu_dispatch	sim-outorder.c	/^ruu_dispatch(void)$/
+ruu_dump	sim-outorder.c	/^ruu_dump(FILE *stream)				\/* output stream *\/$/
+ruu_dumpent	sim-outorder.c	/^ruu_dumpent(struct RUU_station *rs,		\/* ptr to RUU/
+ruu_fetch	sim-outorder.c	/^ruu_fetch(void)$/
+ruu_fetch_issue_delay	sim-outorder.c	361
+ruu_ifq_size	sim-outorder.c	105
+ruu_include_spec	sim-outorder.c	149
+ruu_init	sim-outorder.c	/^ruu_init(void)$/
+ruu_inorder_issue	sim-outorder.c	146
+ruu_install_odep	sim-outorder.c	/^ruu_install_odep(struct RUU_station *rs,	\/* creati/
+ruu_issue	sim-outorder.c	/^ruu_issue(void)$/
+ruu_issue_width	sim-outorder.c	143
+ruu_link_idep	sim-outorder.c	/^ruu_link_idep(struct RUU_station *rs,		\/* rs stati/
+ruu_recover	sim-outorder.c	/^ruu_recover(int branch_index)			\/* index of mis-pr/
+ruu_release_fu	sim-outorder.c	/^ruu_release_fu(void)$/
+ruu_writeback	sim-outorder.c	/^ruu_writeback(void)$/
+seen_write	eio.c	484
+seg_NUM	sim-profile.c	238
+seg_data	sim-profile.c	234
+seg_heap	sim-profile.c	235
+seg_prof	sim-profile.c	250
+seg_stack	sim-profile.c	236
+seg_text	sim-profile.c	237
+seq	sim-outorder.c	1504
+seq	sim-outorder.c	1713
+set_break	dlite.c	/^set_break(int class,				\/* break class, use ACCESS/
+sg_erase	syscall.c	498
+sg_flags	syscall.c	500
+sg_ispeed	syscall.c	496
+sg_kill	syscall.c	499
+sg_ospeed	syscall.c	497
+signal_exit_now	main.c	/^signal_exit_now(int sigtype)$/
+signal_sim_stats	main.c	/^signal_sim_stats(int sigtype)$/
+sim_aux_config	sim-bpred.c	/^sim_aux_config(FILE *stream)		\/* output stream *\/$/
+sim_aux_config	sim-cache.c	/^sim_aux_config(FILE *stream)		\/* output stream *\/$/
+sim_aux_config	sim-eio.c	/^sim_aux_config(FILE *stream)		\/* output stream *\/$/
+sim_aux_config	sim-fast.c	/^sim_aux_config(FILE *stream)$/
+sim_aux_config	sim-outorder.c	/^sim_aux_config(FILE *stream)            \/* output /
+sim_aux_config	sim-profile.c	/^sim_aux_config(FILE *stream)		\/* output stream *\/$/
+sim_aux_config	sim-safe.c	/^sim_aux_config(FILE *stream)		\/* output stream *\/$/
+sim_aux_stats	sim-bpred.c	/^sim_aux_stats(FILE *stream)		\/* output stream *\/$/
+sim_aux_stats	sim-cache.c	/^sim_aux_stats(FILE *stream)		\/* output stream *\/$/
+sim_aux_stats	sim-eio.c	/^sim_aux_stats(FILE *stream)		\/* output stream *\/$/
+sim_aux_stats	sim-fast.c	/^sim_aux_stats(FILE *stream)$/
+sim_aux_stats	sim-outorder.c	/^sim_aux_stats(FILE *stream)             \/* output /
+sim_aux_stats	sim-profile.c	/^sim_aux_stats(FILE *stream)		\/* output stream *\/$/
+sim_aux_stats	sim-safe.c	/^sim_aux_stats(FILE *stream)		\/* output stream *\/$/
+sim_check_options	sim-bpred.c	/^sim_check_options(struct opt_odb_t *odb, int argc,/
+sim_check_options	sim-cache.c	/^sim_check_options(struct opt_odb_t *odb,	\/* option/
+sim_check_options	sim-eio.c	/^sim_check_options(struct opt_odb_t *odb, int argc,/
+sim_check_options	sim-fast.c	/^sim_check_options(struct opt_odb_t *odb, int argc,/
+sim_check_options	sim-outorder.c	/^sim_check_options(struct opt_odb_t *odb,        \/*/
+sim_check_options	sim-profile.c	/^sim_check_options(struct opt_odb_t *odb, int argc,/
+sim_check_options	sim-safe.c	/^sim_check_options(struct opt_odb_t *odb, int argc,/
+sim_chkpt_fname	main.c	126
+sim_cycle	sim-outorder.c	331
+sim_dump_stats	main.c	116
+sim_eio_fd	main.c	127
+sim_eio_fname	main.c	125
+sim_elapsed_time	main.c	103
+sim_end_time	main.c	102
+sim_exit_buf	main.c	113
+sim_exit_now	main.c	110
+sim_init	sim-bpred.c	/^sim_init(void)$/
+sim_init	sim-cache.c	/^sim_init(void)$/
+sim_init	sim-eio.c	/^sim_init(void)$/
+sim_init	sim-fast.c	/^sim_init(void)$/
+sim_init	sim-outorder.c	/^sim_init(void)$/
+sim_init	sim-profile.c	/^sim_init(void)$/
+sim_init	sim-safe.c	/^sim_init(void)$/
+sim_invalid_addrs	sim-outorder.c	342
+sim_load_prog	sim-bpred.c	/^sim_load_prog(char *fname,		\/* program to load *\/$/
+sim_load_prog	sim-cache.c	/^sim_load_prog(char *fname,		\/* program to load *\/$/
+sim_load_prog	sim-eio.c	/^sim_load_prog(char *fname,		\/* program to load *\/$/
+sim_load_prog	sim-fast.c	/^sim_load_prog(char *fname,		\/* program to load *\/$/
+sim_load_prog	sim-outorder.c	/^sim_load_prog(char *fname,		\/* program to load *\/$/
+sim_load_prog	sim-profile.c	/^sim_load_prog(char *fname,		\/* program to load *\/$/
+sim_load_prog	sim-safe.c	/^sim_load_prog(char *fname,		\/* program to load *\/$/
+sim_main	sim-bpred.c	/^sim_main(void)$/
+sim_main	sim-cache.c	/^sim_main(void)$/
+sim_main	sim-eio.c	/^sim_main(void)$/
+sim_main	sim-fast.c	/^sim_main(void)$/
+sim_main	sim-outorder.c	/^sim_main(void)$/
+sim_main	sim-profile.c	/^sim_main(void)$/
+sim_main	sim-safe.c	/^sim_main(void)$/
+sim_mem_usage	main.c	97
+sim_num_branches	sim-bpred.c	115
+sim_num_branches	sim-outorder.c	325
+sim_num_insn	main.c	93
+sim_num_loads	sim-outorder.c	319
+sim_num_refs	sim-bpred.c	112
+sim_num_refs	sim-cache.c	84
+sim_num_refs	sim-eio.c	84
+sim_num_refs	sim-outorder.c	313
+sim_num_refs	sim-profile.c	81
+sim_num_refs	sim-safe.c	82
+sim_odb	main.c	119
+sim_print_stats	main.c	/^sim_print_stats(FILE *fd)		\/* output stream *\/$/
+sim_progfd	main.c	132
+sim_progout	main.c	131
+sim_reg_options	sim-bpred.c	/^sim_reg_options(struct opt_odb_t *odb)$/
+sim_reg_options	sim-cache.c	/^sim_reg_options(struct opt_odb_t *odb)	\/* options /
+sim_reg_options	sim-eio.c	/^sim_reg_options(struct opt_odb_t *odb)$/
+sim_reg_options	sim-fast.c	/^sim_reg_options(struct opt_odb_t *odb)$/
+sim_reg_options	sim-outorder.c	/^sim_reg_options(struct opt_odb_t *odb)$/
+sim_reg_options	sim-profile.c	/^sim_reg_options(struct opt_odb_t *odb)$/
+sim_reg_options	sim-safe.c	/^sim_reg_options(struct opt_odb_t *odb)$/
+sim_reg_stats	sim-bpred.c	/^sim_reg_stats(struct stat_sdb_t *sdb)$/
+sim_reg_stats	sim-cache.c	/^sim_reg_stats(struct stat_sdb_t *sdb)	\/* stats dat/
+sim_reg_stats	sim-eio.c	/^sim_reg_stats(struct stat_sdb_t *sdb)$/
+sim_reg_stats	sim-fast.c	/^sim_reg_stats(struct stat_sdb_t *sdb)$/
+sim_reg_stats	sim-outorder.c	/^sim_reg_stats(struct stat_sdb_t *sdb)   \/* stats d/
+sim_reg_stats	sim-profile.c	/^sim_reg_stats(struct stat_sdb_t *sdb)$/
+sim_reg_stats	sim-safe.c	/^sim_reg_stats(struct stat_sdb_t *sdb)$/
+sim_sdb	main.c	122
+sim_simout	main.c	130
+sim_slip	sim-outorder.c	307
+sim_start_time	main.c	101
+sim_swap_bytes	main.c	106
+sim_swap_words	main.c	107
+sim_total_branches	sim-outorder.c	328
+sim_total_insn	sim-outorder.c	310
+sim_total_loads	sim-outorder.c	322
+sim_total_refs	sim-outorder.c	316
+sim_uninit	sim-bpred.c	/^sim_uninit(void)$/
+sim_uninit	sim-cache.c	/^sim_uninit(void)$/
+sim_uninit	sim-eio.c	/^sim_uninit(void)$/
+sim_uninit	sim-fast.c	/^sim_uninit(void)$/
+sim_uninit	sim-outorder.c	/^sim_uninit(void)$/
+sim_uninit	sim-profile.c	/^sim_uninit(void)$/
+sim_uninit	sim-safe.c	/^sim_uninit(void)$/
+simoo_mem_obj	sim-outorder.c	/^simoo_mem_obj(struct mem_t *mem,		\/* memory space /
+simoo_mstate_obj	sim-outorder.c	/^simoo_mstate_obj(FILE *stream,			\/* output stream /
+simoo_reg_obj	sim-outorder.c	/^simoo_reg_obj(struct regs_t *xregs,		\/* registers /
+size	eio.c	467
+slargeint_t	misc.c	392
+slargeint_t	misc.c	396
+slip	sim-outorder.c	1507
+spec_CT	sim-outorder.c	368
+spec_ID	sim-outorder.c	368
+spec_WB	sim-outorder.c	368
+spec_create_vector	sim-outorder.c	2057
+spec_create_vector_rt	sim-outorder.c	2062
+spec_mem_access	sim-outorder.c	/^spec_mem_access(struct mem_t *mem,		\/* memory spac/
+spec_mem_ent	sim-outorder.c	2919
+spec_mode	sim-outorder.c	358
+spec_mode	sim-outorder.c	1500
+spec_regs_C	sim-outorder.c	2866
+spec_regs_F	sim-outorder.c	2861
+spec_regs_R	sim-outorder.c	2856
+ss_aft_tab	machine.c	703
+ss_flag	syscall.c	558
+ss_flag_table	syscall.c	560
+ss_fore_tab	machine.c	690
+ss_lr_temp	machine.c	716
+ss_pad	syscall.c	474
+ss_pad1	syscall.c	481
+ss_rlim_cur	syscall.c	539
+ss_rlim_max	syscall.c	540
+ss_rlimit	syscall.c	537
+ss_ru_idrss	syscall.c	517
+ss_ru_inblock	syscall.c	522
+ss_ru_isrss	syscall.c	518
+ss_ru_ixrss	syscall.c	516
+ss_ru_majflt	syscall.c	520
+ss_ru_maxrss	syscall.c	515
+ss_ru_minflt	syscall.c	519
+ss_ru_msgrcv	syscall.c	525
+ss_ru_msgsnd	syscall.c	524
+ss_ru_nivcsw	syscall.c	528
+ss_ru_nsignals	syscall.c	526
+ss_ru_nswap	syscall.c	521
+ss_ru_nvcsw	syscall.c	527
+ss_ru_oublock	syscall.c	523
+ss_ru_stime	syscall.c	514
+ss_ru_utime	syscall.c	513
+ss_rusage	syscall.c	511
+ss_sgttyb	syscall.c	495
+ss_st_atime	syscall.c	483
+ss_st_blksize	syscall.c	489
+ss_st_blocks	syscall.c	490
+ss_st_ctime	syscall.c	487
+ss_st_dev	syscall.c	473
+ss_st_gennum	syscall.c	491
+ss_st_gid	syscall.c	479
+ss_st_ino	syscall.c	475
+ss_st_mode	syscall.c	476
+ss_st_mtime	syscall.c	485
+ss_st_nlink	syscall.c	477
+ss_st_rdev	syscall.c	480
+ss_st_size	syscall.c	482
+ss_st_spare1	syscall.c	484
+ss_st_spare2	syscall.c	486
+ss_st_spare3	syscall.c	488
+ss_st_spare4	syscall.c	492
+ss_st_uid	syscall.c	478
+ss_statbuf	syscall.c	471
+ss_timeval	syscall.c	503
+ss_timezone	syscall.c	531
+ss_tv_sec	syscall.c	505
+ss_tv_usec	syscall.c	506
+ss_tz_dsttime	syscall.c	534
+ss_tz_minuteswest	syscall.c	533
+stack_recover_idx	sim-outorder.c	1498
+stack_recover_idx	sim-outorder.c	2945
+stat	syscall.c	213
+stat_add_sample	stats.c	/^stat_add_sample(struct stat_stat_t *stat,\/* stat v/
+stat_add_samples	stats.c	/^stat_add_samples(struct stat_stat_t *stat,\/* stat /
+stat_delete	stats.c	/^stat_delete(struct stat_sdb_t *sdb)	\/* stats datab/
+stat_eval_ident	stats.c	/^stat_eval_ident(struct eval_state_t *es)\/* an expr/
+stat_find_stat	stats.c	/^stat_find_stat(struct stat_sdb_t *sdb,	\/* stat dat/
+stat_new	stats.c	/^stat_new(void)$/
+stat_print_stat	stats.c	/^stat_print_stat(struct stat_sdb_t *sdb,	\/* stat da/
+stat_print_stats	stats.c	/^stat_print_stats(struct stat_sdb_t *sdb,\/* stat da/
+stat_reg_dist	stats.c	/^stat_reg_dist(struct stat_sdb_t *sdb,	\/* stat data/
+stat_reg_double	stats.c	/^stat_reg_double(struct stat_sdb_t *sdb,	\/* stat da/
+stat_reg_float	stats.c	/^stat_reg_float(struct stat_sdb_t *sdb,	\/* stat dat/
+stat_reg_formula	stats.c	/^stat_reg_formula(struct stat_sdb_t *sdb,\/* stat da/
+stat_reg_int	stats.c	/^stat_reg_int(struct stat_sdb_t *sdb,	\/* stat datab/
+stat_reg_qword	stats.c	/^stat_reg_qword(struct stat_sdb_t *sdb,	\/* stat dat/
+stat_reg_sdist	stats.c	/^stat_reg_sdist(struct stat_sdb_t *sdb,	\/* stat dat/
+stat_reg_sqword	stats.c	/^stat_reg_sqword(struct stat_sdb_t *sdb,	\/* stat da/
+stat_reg_uint	stats.c	/^stat_reg_uint(struct stat_sdb_t *sdb,	\/* stat data/
+stestit	misc.c	/^stestit(char *s)$/
+store_htable	sim-outorder.c	2926
+strtoul	eval.c	62
+sym_bind_addr	symbol.c	/^sym_bind_addr(md_addr_t addr,		\/* address of symbo/
+sym_bind_name	symbol.c	/^sym_bind_name(char *name,			\/* symbol name to loca/
+sym_datasyms	symbol.c	86
+sym_datasyms_by_name	symbol.c	89
+sym_db	symbol.c	68
+sym_dumpstate	symbol.c	/^sym_dumpstate(FILE *fd)			\/* output stream *\/$/
+sym_dumpsym	symbol.c	/^sym_dumpsym(struct sym_sym_t *sym,	\/* symbol to di/
+sym_dumpsyms	symbol.c	/^sym_dumpsyms(FILE *fd)			\/* output stream *\/$/
+sym_loadsyms	symbol.c	/^sym_loadsyms(char *fname,	\/* file name containing /
+sym_map	eval.c	1178
+sym_map_t	eval.c	1173
+sym_ndatasyms	symbol.c	85
+sym_nsyms	symbol.c	71
+sym_ntextsyms	symbol.c	78
+sym_syms	symbol.c	72
+sym_syms_by_name	symbol.c	75
+sym_textsyms	symbol.c	79
+sym_textsyms_by_name	symbol.c	82
+symbol	eval.c	1174
+syms_loaded	symbol.c	92
+sys_syscall	syscall.c	/^sys_syscall(struct regs_t *regs,	\/* registers to a/
+taddr_prof	sim-profile.c	278
+tag	sim-outorder.c	1502
+tag	sim-outorder.c	1710
+temp_bs	machine.c	719
+temp_rd	machine.c	719
+term	eval.c	/^term(struct eval_state_t *es)		\/* expression evalu/
+testit	misc.c	/^testit(char *s)$/
+tlb_miss_lat	sim-outorder.c	205
+tok_map	eval.c	81
+tok_map_initialized	eval.c	82
+trace_fd	sim-eio.c	97
+trace_fname	sim-eio.c	96
+tracer_init	sim-outorder.c	/^tracer_init(void)$/
+tracer_recover	sim-outorder.c	/^tracer_recover(void)$/
+tsym_names	sim-profile.c	271
+tsym_prof	sim-profile.c	270
+twolev_config	sim-bpred.c	92
+twolev_config	sim-outorder.c	123
+twolev_nelt	sim-bpred.c	91
+twolev_nelt	sim-outorder.c	122
+type	misc.c	1063
+unlink	syscall.c	207
+unlink_htab_ent	cache.c	/^unlink_htab_ent(struct cache_t *cp,		\/* cache to u/
+update_way_list	cache.c	/^update_way_list(struct cache_set_t *set,	\/* set co/
+usage	main.c	/^usage(FILE *fd, int argc, char **argv)$/
+utime	syscall.c	220
+value	eval.c	1175
+verbose	misc.c	68
+when	sim-outorder.c	1712
+write	eio.c	73
+write	syscall.c	217
+x	sim-outorder.c	1715
+xtestit	misc.c	/^xtestit(char *s)$/
