@@ -371,9 +371,15 @@ cache_create(char *name,		/* name of the cache */
   /* slice up the data blocks */
   for (bindex=0,i=0; i<nsets; i++)
     {
-      //TODO put those as two lists per stack
-      cp->sets[i].way_head = NULL;
-      cp->sets[i].way_tail = NULL;
+      //TODO put those as two lists per stack properly - those might not be the correct numbers and the > might need to be >=
+      cp->sets1[i].way_head = NULL;
+      cp->sets1[i].way_tail = NULL;
+      if (cp->policy == 'u')
+      {
+        if (i > nsets/2) break;       
+        cp->sets1[nsets/2+i].way_head = NULL;
+        cp->sets1[nsets/2+i].way_tail = NULL; 
+      }
       /* get a hash table, if needed */
       if (cp->hsize)
 	{
