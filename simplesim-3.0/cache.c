@@ -371,6 +371,7 @@ cache_create(char *name,		/* name of the cache */
   /* slice up the data blocks */
   for (bindex=0,i=0; i<nsets; i++)
     {
+      //TODO put those as two lists per stack
       cp->sets[i].way_head = NULL;
       cp->sets[i].way_tail = NULL;
       /* get a hash table, if needed */
