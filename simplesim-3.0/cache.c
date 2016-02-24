@@ -305,11 +305,28 @@ cache_create(char *name,		/* name of the cache */
   /* initialize user parameters */
   cp->name = mystrdup(name);
   cp->nsets = nsets;
+  if (cp->policy == 'u')
+  {
+    cp->nset1 = nsets/2;
+    cp->nset2 = nsets/2;
+    /*TODO find where you fill the cache and do:
+    if nset1 not full:
+      place block in nset1
+    elseif nset2 not full:
+      place entry in nset2
+    else: go to replacement policies
+    */
+  }
   cp->bsize = bsize;
   cp->balloc = balloc;
   cp->usize = usize;
   cp->assoc = assoc;
   cp->policy = policy;
+  printf("Grr");
+  if (cp->policy == 'r')
+  {
+    printf("Random");
+  }
   cp->hit_latency = hit_latency;
 
   /* miss/replacement functions */
@@ -406,10 +423,13 @@ cache_create(char *name,		/* name of the cache */
 enum cache_policy			/* replacement policy enum */
 cache_char2policy(char c)		/* replacement policy as a char */
 {
+  printf("SWITCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH %c\n", c);
   switch (c) {
   case 'l': return LRU;
   case 'r': return Random;
   case 'f': return FIFO;
+  case 't': return LFU;
+  case 'u': return UtilRand;
   default: fatal("bogus replacement policy, `%c'", c);
   }
 }
@@ -428,6 +448,8 @@ cache_config(struct cache_t *cp,	/* cache instance */
 	  cp->policy == LRU ? "LRU"
 	  : cp->policy == Random ? "Random"
 	  : cp->policy == FIFO ? "FIFO"
+	  : cp->policy == LFU ? "LFU"
+	  : cp->policy == UtilRand ? "UtilRand"
 	  : (abort(), ""));
 }
 
@@ -578,9 +600,33 @@ cache_access(struct cache_t *cp,	/* cache to access */
     break;
   case Random:
     {
+      printf("RANDOM");
       int bindex = myrand() & (cp->assoc - 1);
       repl = CACHE_BINDEX(cp, cp->sets[set].blks, bindex);
     }
+    break;
+  /* TODO Implement actual policies here. At the moment it is just pseudocode - 
+     linked list used because we need O(1) insertion time */
+  case LFU:
+  case UtilRand:
+  printf("UtilRand");
+    if empty sample linked list:
+      m = M;
+    else:
+      m = N;
+    for i in m:
+      if random number > 0.75;
+        pick random block from unlucky stack; //int bindex = myrand() & (cp->assoc - 1);
+        if next in stack == NULL:
+          evict;
+          returnhere;
+      else:
+        pick random block from lucky stack;        
+      place in sorted order in linked list;
+    evict head ot list;
+    delete last m-n elements;
+    put new entry in head of lucky list; // update_way_list(&cp->sets[set], repl, Head);
+
     break;
   default:
     panic("bogus replacement policy");
@@ -595,7 +641,7 @@ cache_access(struct cache_t *cp,	/* cache to access */
   cp->last_blk = NULL;
 
   /* write back replaced block data */
-  if (repl->status & CACHE_BLK_VALID)
+  if (repl->status & CACHE_BLK_VALID) 
     {
       cp->replacements++;
 
@@ -672,6 +718,12 @@ cache_access(struct cache_t *cp,	/* cache to access */
   /* if LRU replacement and this is not the first element of list, reorder */
   if (blk->way_prev && cp->policy == LRU)
     {
+      /* move this block to head of the way (MRU) list */
+      update_way_list(&cp->sets[set], blk, Head);
+    }
+  if (cp->policy == LFU)
+    {
+      /* FIX TO INCREMENT BLOCK COUNTER */
       /* move this block to head of the way (MRU) list */
       update_way_list(&cp->sets[set], blk, Head);
     }
